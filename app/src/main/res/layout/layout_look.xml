@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_constraintBottom_toTopOf="@id/vp_item"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <com.upco.kloset.view.widget.ViewPager
+                android:id="@+id/vp_item"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/v_decor_top_line"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appbar"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <View
+                android:id="@+id/v_decor_top_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"
+                app:layout_constraintBottom_toTopOf="@id/recycler_look_items"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/vp_item"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_look_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2.5dp"
+                app:layout_constraintBottom_toTopOf="@id/v_decor_middle_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/v_decor_top_line"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <View
+                android:id="@+id/v_decor_middle_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"
+                app:layout_constraintBottom_toTopOf="@id/constraint_btns"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recycler_look_items"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_btns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/v_decor_bottom_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_decor_middle_line"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <Button
+                    android:id="@+id/btn_like"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_action_like"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/ic_action_like"
+                    android:gravity="start|center"
+                    android:paddingLeft="8dp"
+                    android:paddingStart="8dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_btn_peek_view"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btn_comment"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_comment"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_action_comment"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/ic_action_comment"
+                    android:gravity="start|center"
+                    android:paddingLeft="8dp"
+                    android:paddingStart="8dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_btn_peek_view"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btn_share"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toEndOf="@id/btn_like"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_share"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_action_share"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/ic_action_share"
+                    android:gravity="start|center"
+                    android:paddingLeft="8dp"
+                    android:paddingStart="8dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_btn_peek_view"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toEndOf="@id/btn_comment"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <View
+                android:id="@+id/v_decor_bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"
+                app:layout_constraintBottom_toTopOf="@id/btn_viewAll"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/constraint_btns"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <Button
+                android:id="@+id/btn_viewAll"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:text="Ver todos os 999+ comentários"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@id/recycler_comments"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/v_decor_bottom_line"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_viewAll"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

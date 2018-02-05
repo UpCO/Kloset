@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">Kloset</string>
+
+    <!-- Bottom Navigation -->
+    <string name="text_feed">Feed</string>
+    <string name="text_closet">Closet</string>
+    <string name="text_camera">Camera</string>
+    <string name="text_agenda">Agenda</string>
+    <string name="text_menu">Menu</string>
+
+</resources>

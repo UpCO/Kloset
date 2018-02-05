@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GLOBAL COLORS -->
+    <color name="white">#ffffff</color>
+    <color name="color_title">#212121</color>
+    <color name="color_separator">#40000000</color>
+
+    <color name="colorPrimary">#2d2d2d</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#cacaca</color>
+
+    <color name="color_title_peek_view">#000000</color>
+    <color name="color_btn_peek_view">#848484</color>
+</resources>

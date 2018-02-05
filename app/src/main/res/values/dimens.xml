@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Bottom Navigation -->
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+
+    <!-- Closet Dimens -->
+    <dimen name="closet_look_card_margin">2.5dp</dimen>
+    <dimen name="closet_look_card_corner_radius">4dp</dimen>
+    <dimen name="closet_look_card_height">120dp</dimen>
+    <dimen name="closet_look_card_elevation">3dp</dimen>
+    <dimen name="closet_look_card_info_layout_width">53dp</dimen>
+    <dimen name="closet_look_card_info_layout_margin">4dp</dimen>
+    <dimen name="closet_look_card_info_icon_size">18dp</dimen>
+    <dimen name="closet_look_card_info_text_size">14sp</dimen>
+    <dimen name="closet_look_card_info_text_margin">1dp</dimen>
+
+</resources>
