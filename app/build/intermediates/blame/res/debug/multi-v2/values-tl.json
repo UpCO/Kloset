@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\felps\\AndroidProjects\\Kloset\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "/Users/felps/StudioProjects/Kloset/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\40e8301109a894b30cfd771a7450bc63\\res\\values-tl\\values-tl.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3907f55112433cd2f80903cf2a2779a8/res/values-tl/values-tl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a7a8aa06a652d25f2ad836ceacdbab88\\res\\values-tl\\values-tl.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d8bfdba564a17a646984bf1a50d963ef/res/values-tl/values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

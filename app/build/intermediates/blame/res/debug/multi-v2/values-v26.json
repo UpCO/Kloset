@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\felps\\AndroidProjects\\Kloset\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/Users/felps/StudioProjects/Kloset/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\edd8b0681f7975b620f4e13be2048801\\res\\values-v26\\values-v26.xml",
-                    "from": {
-                        "startLines": "2,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,299",
-                        "endLines": "5,6",
-                        "endColumns": "12,96",
-                        "endOffsets": "294,391"
-                    },
-                    "to": {
-                        "startLines": "16,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "896,1233",
-                        "endLines": "19,21",
-                        "endColumns": "12,96",
-                        "endOffsets": "1135,1325"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a7a8aa06a652d25f2ad836ceacdbab88\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d8bfdba564a17a646984bf1a50d963ef/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "2,3,7,11,15,20",
                         "endColumns": "74,86,12,12,12,92",
                         "endOffsets": "125,212,426,652,891,1228"
+                    }
+                },
+                {
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/bebd3032d5a45bf69b4011384b80b35e/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,299",
+                        "endLines": "5,6",
+                        "endColumns": "12,96",
+                        "endOffsets": "294,391"
+                    },
+                    "to": {
+                        "startLines": "16,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "896,1233",
+                        "endLines": "19,21",
+                        "endColumns": "12,96",
+                        "endOffsets": "1135,1325"
                     }
                 }
             ]

@@ -7,7 +7,11 @@
 package android.support.v4;
 
 public final class R {
+    private R() {}
+
     public static final class attr {
+        private attr() {}
+
         public static final int font = 0x7f03009a;
         public static final int fontProviderAuthority = 0x7f03009c;
         public static final int fontProviderCerts = 0x7f03009d;
@@ -19,9 +23,13 @@ public final class R {
         public static final int fontWeight = 0x7f0300a3;
     }
     public static final class bool {
+        private bool() {}
+
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
     }
     public static final class color {
+        private color() {}
+
         public static final int notification_action_color_filter = 0x7f050053;
         public static final int notification_icon_bg_color = 0x7f050054;
         public static final int notification_material_background_media_default_color = 0x7f050055;
@@ -31,6 +39,8 @@ public final class R {
         public static final int secondary_text_default_material_light = 0x7f050061;
     }
     public static final class dimen {
+        private dimen() {}
+
         public static final int compat_button_inset_horizontal_material = 0x7f060056;
         public static final int compat_button_inset_vertical_material = 0x7f060057;
         public static final int compat_button_padding_horizontal_material = 0x7f060058;
@@ -53,6 +63,8 @@ public final class R {
         public static final int notification_top_pad_large_text = 0x7f06009e;
     }
     public static final class drawable {
+        private drawable() {}
+
         public static final int notification_action_background = 0x7f070078;
         public static final int notification_bg = 0x7f070079;
         public static final int notification_bg_low = 0x7f07007a;
@@ -67,6 +79,8 @@ public final class R {
         public static final int notify_panel_notification_icon_bg = 0x7f070083;
     }
     public static final class id {
+        private id() {}
+
         public static final int action0 = 0x7f090006;
         public static final int action_container = 0x7f090010;
         public static final int action_divider = 0x7f090012;
@@ -100,10 +114,14 @@ public final class R {
         public static final int title = 0x7f0900cd;
     }
     public static final class integer {
+        private integer() {}
+
         public static final int cancel_button_image_alpha = 0x7f0a0004;
         public static final int status_bar_notification_info_maxnum = 0x7f0a0009;
     }
     public static final class layout {
+        private layout() {}
+
         public static final int notification_action = 0x7f0b003b;
         public static final int notification_action_tombstone = 0x7f0b003c;
         public static final int notification_media_action = 0x7f0b003d;
@@ -121,9 +139,13 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0b0049;
     }
     public static final class string {
+        private string() {}
+
         public static final int status_bar_notification_info_overflow = 0x7f0e0027;
     }
     public static final class style {
+        private style() {}
+
         public static final int TextAppearance_Compat_Notification = 0x7f0f00fa;
         public static final int TextAppearance_Compat_Notification_Info = 0x7f0f00fb;
         public static final int TextAppearance_Compat_Notification_Info_Media = 0x7f0f00fc;
@@ -138,6 +160,8 @@ public final class R {
         public static final int Widget_Compat_NotificationActionText = 0x7f0f0179;
     }
     public static final class styleable {
+        private styleable() {}
+
         public static final int[] FontFamily = { 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f0300a0, 0x7f0300a1 };
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;

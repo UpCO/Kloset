@@ -7,7 +7,7 @@ import com.upco.kloset.repository.local.entity.RealmComment
 /**
  * Created by felps on 19/10/17.
  */
-class Comment(var id: Long = 0,
+data class Comment(var id: Long = 0,
               var uid: String = "",
               var type: Int = 0,
               var content: String = "",

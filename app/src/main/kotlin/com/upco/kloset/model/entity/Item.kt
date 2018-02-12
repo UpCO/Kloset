@@ -2,16 +2,32 @@ package com.upco.kloset.model.entity
 
 import android.os.Parcel
 import android.os.Parcelable
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
 import com.upco.kloset.repository.local.entity.RealmItem
 import io.realm.RealmList
 
 /**
  * Created by felps on 19/10/17.
  */
-class Item(var id: Long = 0,
-           var uid: String = "",
-           var title: String = "",
-           var images: ArrayList<String> = arrayListOf()): Parcelable {
+data class Item(@Expose(serialize = false)
+                @SerializedName("id")
+                var id: Long = 0,
+                @Expose(serialize = false)
+                @SerializedName("uid")
+                var uid: String = "",
+                @Expose
+                @SerializedName("title")
+                var title: String = "",
+                @Expose
+                @SerializedName("images")
+                var images: ArrayList<String> = arrayListOf(),
+                @Expose(serialize = false)
+                @SerializedName("updated_at")
+                var updatedAt: String = "",
+                @Expose(serialize = false)
+                @SerializedName("created_at")
+                var createdAt: String = ""): Parcelable {
 
     companion object {
         val UID_KEY = "uid"

@@ -9,36 +9,36 @@ import com.upco.kloset.repository.local.entity.RealmLook
 /**
  * Created by felps on 19/10/17.
  */
-class Look(@Expose(serialize = false)
-           @SerializedName("id")
-           var id: Long = 0,
-           @Expose(serialize = false)
-           @SerializedName("uid")
-           var uid: String = "",
-           @Expose
-           @SerializedName("title")
-           var title: String = "",
-           @Expose
-           @SerializedName("privacy")
-           var privacy: Int = 0,
-           @Expose
-           @SerializedName("num_items")
-           var numItems: Int = 0,
-           @Expose
-           @SerializedName("num_likes")
-           var numLikes: Int = 0,
-           @Expose
-           @SerializedName("num_comments")
-           var numComments: Int = 0,
-           @Expose
-           @SerializedName("num_shares")
-           var numShares: Int = 0,
-           @Expose(serialize = false)
-           @SerializedName("updated_at")
-           var updatedAt: String = "",
-           @Expose(serialize = false)
-           @SerializedName("created_at")
-           var createdAt: String = ""): Parcelable {
+data class Look(@Expose(serialize = false)
+                @SerializedName("id")
+                var id: Long = 0,
+                @Expose(serialize = false)
+                @SerializedName("uid")
+                var uid: String = "",
+                @Expose
+                @SerializedName("title")
+                var title: String = "",
+                @Expose
+                @SerializedName("privacy")
+                var privacy: Int = 0,
+                @Expose
+                @SerializedName("num_items")
+                var numItems: Int = 0,
+                @Expose
+                @SerializedName("num_likes")
+                var numLikes: Int = 0,
+                @Expose
+                @SerializedName("num_comments")
+                var numComments: Int = 0,
+                @Expose
+                @SerializedName("num_shares")
+                var numShares: Int = 0,
+                @Expose(serialize = false)
+                @SerializedName("updated_at")
+                var updatedAt: String = "",
+                @Expose(serialize = false)
+                @SerializedName("created_at")
+                var createdAt: String = ""): Parcelable {
 
     enum class Privacy(val privacy: Int) {
         VISIBLE_FOR_ALL(1),

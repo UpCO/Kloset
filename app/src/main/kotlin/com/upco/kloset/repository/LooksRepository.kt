@@ -87,6 +87,14 @@ object LooksRepository: LooksDataSource {
         cachedLooks[look.uid] = look
     }
 
+    override fun updateLook(auth: String, lookUid: String, look: Look) {
+        looksRemoteDataSource.updateLook(auth, lookUid, look)
+        looksLocalDataSource.updateLook(auth, lookUid, look)
+
+        // Atualiza no cache
+        cachedLooks[lookUid] = look
+    }
+
     override fun refreshLooks() {
         cacheIsDirty = true
     }

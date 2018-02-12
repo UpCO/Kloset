@@ -54,6 +54,16 @@ object LooksLocalDataSource: LooksDataSource {
         realm.close()
     }
 
+    override fun updateLook(auth: String, lookUid: String, look: Look) {
+        val realm = Realm.getDefaultInstance()
+
+        realm.beginTransaction()
+        realm.copyToRealmOrUpdate(look.toRealmLook())
+        realm.commitTransaction()
+
+        realm.close()
+    }
+
     override fun refreshLooks() {
         // Não é necessário, pois o Repository já atualiza
         // os looks de todos os data source disponíveis

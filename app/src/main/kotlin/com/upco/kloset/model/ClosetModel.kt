@@ -37,7 +37,7 @@ class ClosetModel(val presenter: ClosetPresenter): ClosetContract.ModelImpl {
         presenter.updateLooks(looks)
         */
 
-        LooksRepository.getLooks("bc2bd5b1-45ce-418a-a66b-c31e589957c4", object: LooksDataSource.LoadLooksCallback {
+        LooksRepository.getLooks("fa83107f-e67f-4097-bdec-4daabe26965b", object: LooksDataSource.LoadLooksCallback {
             override fun onLooksLoaded(looks: ArrayList<Look>) {
                 presenter.updateLooks(looks)
             }

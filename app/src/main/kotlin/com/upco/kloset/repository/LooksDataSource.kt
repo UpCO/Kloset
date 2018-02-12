@@ -20,6 +20,7 @@ interface LooksDataSource {
     fun getLooks(auth: String, callback: LoadLooksCallback)
     fun getLook(auth: String, lookUid: String, callback: GetLookCallback)
     fun saveLook(auth: String, look: Look)
+    fun updateLook(auth: String, lookUid: String, look: Look)
     fun refreshLooks()
     fun deleteLook(auth: String, lookUid: String)
     fun deleteAllLooks()

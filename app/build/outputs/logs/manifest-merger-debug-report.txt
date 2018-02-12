@@ -1,156 +1,156 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-MERGED from [io.realm:realm-android-library:4.1.0] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.1.0.aar\12e6fcdfd829ce3d3a5cb4910b8b8508\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\edd8b0681f7975b620f4e13be2048801\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.shalskar:PeekAndPop:1.1.0] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\PeekAndPop-1.1.0.aar\5ec238dadfa1889debfd1e6071c23f71\AndroidManifest.xml:2:1-12:12
-MERGED from [com.tomergoldst.android:tooltips:1.0.8] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\tooltips-1.0.8.aar\901c4b40705af96d6c44bfc45ccccff4\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a7a8aa06a652d25f2ad836ceacdbab88\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\be3e91e2ee2f461142640216813091aa\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\ded06812f44f75e45bda21ceb7be2e16\AndroidManifest.xml:17:1-22:12
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\e65dc908538f6d90d3be60e47eebb90c\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7f3ae070fa91ada5bfe4be39e1d5f498\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\97137500b987da0a5c1d890e10a54e8d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\6ec386453eb3c990f8c115c56ec5d82e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\6581d242a0e6b6cb8b06d955a3b8026e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\9c230d452776b53e101227350ce198de\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f5dcc298c67409c48f402b27272181ba\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\0f8879bdccf4101ab28918fd33580f2f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\b08c9770d71e35084e5a1106eea44a70\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\c6bc446f57f5bfdae751221cf6cb8bef\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\40e8301109a894b30cfd771a7450bc63\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4d6f4d9ead1f9a726aa188a0a8f30e27\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [io.realm:realm-android-library:4.1.0] /Users/felps/.gradle/caches/transforms-1/files-1.1/realm-android-library-4.1.0.aar/a8f57c06b2dac45505aac0124bd78da7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/bebd3032d5a45bf69b4011384b80b35e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.shalskar:PeekAndPop:1.1.0] /Users/felps/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/0948980aef5bd0db3970fbd84803385f/AndroidManifest.xml:2:1-12:12
+MERGED from [com.tomergoldst.android:tooltips:1.0.8] /Users/felps/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.8.aar/9f291885300dbfcda9f2c38631623089/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d8bfdba564a17a646984bf1a50d963ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/78f1b802da83e5f2766a6a4f8be8d716/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/dcdd46359376eb6e6173ff7557e34295/AndroidManifest.xml:17:1-22:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/21f88def4857192cd2d40feeb3404951/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/65cc1f89e758738e3e57032b53c4960c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/0c9044444d87eafcff8d7dd31bb62f88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/a098b1ed27bb9231c4771b7f1441693e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7b696b25f37ed63fb44b9ddd2e63fe38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/6c7a04395b143f01194b1700e0cc03c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/99316d741109e9af3944dbdbb0ebb4bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/1156c25c8ebe4278862a23fc5e60545a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/d10cecc5ca75fd164328e78352e62174/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e40cce1e3755d6dd84e6d4a7870f00a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3907f55112433cd2f80903cf2a2779a8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/felps/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/77d43b0699141715b621ebdef7425908/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
 	package
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:2:5-30
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:1-40:12
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:6:22-63
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:6:22-63
 application
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:8:5-39:19
-MERGED from [com.tomergoldst.android:tooltips:1.0.8] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\tooltips-1.0.8.aar\901c4b40705af96d6c44bfc45ccccff4\AndroidManifest.xml:12:5-20
-MERGED from [com.tomergoldst.android:tooltips:1.0.8] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\tooltips-1.0.8.aar\901c4b40705af96d6c44bfc45ccccff4\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\be3e91e2ee2f461142640216813091aa\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\be3e91e2ee2f461142640216813091aa\AndroidManifest.xml:9:5-20
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:8:5-39:19
+MERGED from [com.tomergoldst.android:tooltips:1.0.8] /Users/felps/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.8.aar/9f291885300dbfcda9f2c38631623089/AndroidManifest.xml:12:5-20
+MERGED from [com.tomergoldst.android:tooltips:1.0.8] /Users/felps/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.8.aar/9f291885300dbfcda9f2c38631623089/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/78f1b802da83e5f2766a6a4f8be8d716/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/78f1b802da83e5f2766a6a4f8be8d716/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:15:9-41
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:9:9-45
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:9:9-45
 activity#com.upco.kloset.view.activity.MainActivity
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:18:9-23:20
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:18:9-23:20
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:18:19-61
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:19:13-22:29
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:18:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.upco.kloset.view.activity.LookActivity
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:26:9-64
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:26:9-64
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:26:19-61
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:26:19-61
 activity#com.upco.kloset.view.activity.NewLookActivity
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:29:9-67
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:29:9-67
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:29:19-64
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:29:19-64
 activity#com.upco.kloset.view.activity.NewLookItemActivity
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:32:9-71
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:32:9-71
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:32:19-68
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:32:19-68
 activity#com.upco.kloset.view.activity.CommentActivity
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:35:9-67
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:35:9-67
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:35:19-64
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:35:19-64
 activity#com.upco.kloset.view.activity.AnswerActivity
-ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:38:9-66
+ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:38:9-66
 	android:name
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml:38:19-63
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml:38:19-63
 uses-sdk
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-MERGED from [io.realm:realm-android-library:4.1.0] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.1.0.aar\12e6fcdfd829ce3d3a5cb4910b8b8508\AndroidManifest.xml:7:5-9:41
-MERGED from [io.realm:realm-android-library:4.1.0] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.1.0.aar\12e6fcdfd829ce3d3a5cb4910b8b8508\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\edd8b0681f7975b620f4e13be2048801\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\edd8b0681f7975b620f4e13be2048801\AndroidManifest.xml:20:5-44
-MERGED from [com.github.shalskar:PeekAndPop:1.1.0] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\PeekAndPop-1.1.0.aar\5ec238dadfa1889debfd1e6071c23f71\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.shalskar:PeekAndPop:1.1.0] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\PeekAndPop-1.1.0.aar\5ec238dadfa1889debfd1e6071c23f71\AndroidManifest.xml:8:5-10:41
-MERGED from [com.tomergoldst.android:tooltips:1.0.8] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\tooltips-1.0.8.aar\901c4b40705af96d6c44bfc45ccccff4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.tomergoldst.android:tooltips:1.0.8] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\tooltips-1.0.8.aar\901c4b40705af96d6c44bfc45ccccff4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a7a8aa06a652d25f2ad836ceacdbab88\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a7a8aa06a652d25f2ad836ceacdbab88\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\be3e91e2ee2f461142640216813091aa\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\be3e91e2ee2f461142640216813091aa\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\ded06812f44f75e45bda21ceb7be2e16\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\ded06812f44f75e45bda21ceb7be2e16\AndroidManifest.xml:20:5-44
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\e65dc908538f6d90d3be60e47eebb90c\AndroidManifest.xml:7:5-43
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\e65dc908538f6d90d3be60e47eebb90c\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7f3ae070fa91ada5bfe4be39e1d5f498\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7f3ae070fa91ada5bfe4be39e1d5f498\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\97137500b987da0a5c1d890e10a54e8d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\97137500b987da0a5c1d890e10a54e8d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\6ec386453eb3c990f8c115c56ec5d82e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\6ec386453eb3c990f8c115c56ec5d82e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\6581d242a0e6b6cb8b06d955a3b8026e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\6581d242a0e6b6cb8b06d955a3b8026e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\9c230d452776b53e101227350ce198de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\9c230d452776b53e101227350ce198de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f5dcc298c67409c48f402b27272181ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f5dcc298c67409c48f402b27272181ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\0f8879bdccf4101ab28918fd33580f2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\0f8879bdccf4101ab28918fd33580f2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\b08c9770d71e35084e5a1106eea44a70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\b08c9770d71e35084e5a1106eea44a70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\c6bc446f57f5bfdae751221cf6cb8bef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\c6bc446f57f5bfdae751221cf6cb8bef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\40e8301109a894b30cfd771a7450bc63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\40e8301109a894b30cfd771a7450bc63\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4d6f4d9ead1f9a726aa188a0a8f30e27\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\felps\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4d6f4d9ead1f9a726aa188a0a8f30e27\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:4.1.0] /Users/felps/.gradle/caches/transforms-1/files-1.1/realm-android-library-4.1.0.aar/a8f57c06b2dac45505aac0124bd78da7/AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:4.1.0] /Users/felps/.gradle/caches/transforms-1/files-1.1/realm-android-library-4.1.0.aar/a8f57c06b2dac45505aac0124bd78da7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/bebd3032d5a45bf69b4011384b80b35e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/bebd3032d5a45bf69b4011384b80b35e/AndroidManifest.xml:20:5-44
+MERGED from [com.github.shalskar:PeekAndPop:1.1.0] /Users/felps/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/0948980aef5bd0db3970fbd84803385f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.shalskar:PeekAndPop:1.1.0] /Users/felps/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/0948980aef5bd0db3970fbd84803385f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tomergoldst.android:tooltips:1.0.8] /Users/felps/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.8.aar/9f291885300dbfcda9f2c38631623089/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tomergoldst.android:tooltips:1.0.8] /Users/felps/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.8.aar/9f291885300dbfcda9f2c38631623089/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d8bfdba564a17a646984bf1a50d963ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d8bfdba564a17a646984bf1a50d963ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/78f1b802da83e5f2766a6a4f8be8d716/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/78f1b802da83e5f2766a6a4f8be8d716/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/dcdd46359376eb6e6173ff7557e34295/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/dcdd46359376eb6e6173ff7557e34295/AndroidManifest.xml:20:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/21f88def4857192cd2d40feeb3404951/AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/21f88def4857192cd2d40feeb3404951/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/65cc1f89e758738e3e57032b53c4960c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/65cc1f89e758738e3e57032b53c4960c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/0c9044444d87eafcff8d7dd31bb62f88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/0c9044444d87eafcff8d7dd31bb62f88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/a098b1ed27bb9231c4771b7f1441693e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/a098b1ed27bb9231c4771b7f1441693e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7b696b25f37ed63fb44b9ddd2e63fe38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7b696b25f37ed63fb44b9ddd2e63fe38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/6c7a04395b143f01194b1700e0cc03c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/6c7a04395b143f01194b1700e0cc03c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/99316d741109e9af3944dbdbb0ebb4bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/99316d741109e9af3944dbdbb0ebb4bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/1156c25c8ebe4278862a23fc5e60545a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/1156c25c8ebe4278862a23fc5e60545a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/d10cecc5ca75fd164328e78352e62174/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/d10cecc5ca75fd164328e78352e62174/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e40cce1e3755d6dd84e6d4a7870f00a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e40cce1e3755d6dd84e6d4a7870f00a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3907f55112433cd2f80903cf2a2779a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/felps/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/3907f55112433cd2f80903cf2a2779a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/felps/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/77d43b0699141715b621ebdef7425908/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/felps/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/77d43b0699141715b621ebdef7425908/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\felps\AndroidProjects\Kloset\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/felps/StudioProjects/Kloset/app/src/main/AndroidManifest.xml

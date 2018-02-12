@@ -110,7 +110,67 @@ object LooksRemoteDataSource: LooksDataSource {
     }
 
     override fun saveLook(auth: String, look: Look) {
+        RetrofitInitializer.service.createLook(auth, look)
+                .enqueue(object: Callback<RedirectionInfo> {
+                    override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
+                        if (response!!.isSuccessful) {
+                            response.body()?.let {
+                                if (!it.error) {
+                                    Log.d("onSuccess", it.message)
+                                    //callback.onLookLoaded(look)
+                                } else {
+                                    Log.e("onFailure", it.message)
+                                    //callback.onDataNotAvailable()
+                                }
+                            }
+                        } else {
+                            try {
+                                val errorConverter = RetrofitInitializer.responseBodyConverter
+                                val error = errorConverter.convert(response.errorBody())
+                                Log.e("onFailure", error.message)
+                            } catch (e: IOException) {
+                                Log.e("onFailure", e.message)
+                            }
+                        }
+                    }
 
+                    override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
+                        Log.e("onFailure", t?.message)
+                        //callback.onDataNotAvailable()
+                    }
+                })
+    }
+
+    override fun updateLook(auth: String, lookUid: String, look: Look) {
+        RetrofitInitializer.service.updateLook(auth, lookUid, look)
+                .enqueue(object: Callback<RedirectionInfo> {
+                    override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
+                        if (response!!.isSuccessful) {
+                            response.body()?.let {
+                                if (!it.error) {
+                                    Log.d("onSuccess", it.message)
+                                    //callback.onLookLoaded(look)
+                                } else {
+                                    Log.e("onFailure", it.message)
+                                    //callback.onDataNotAvailable()
+                                }
+                            }
+                        } else {
+                            try {
+                                val errorConverter = RetrofitInitializer.responseBodyConverter
+                                val error = errorConverter.convert(response.errorBody())
+                                Log.e("onFailure", error.message)
+                            } catch (e: IOException) {
+                                Log.e("onFailure", e.message)
+                            }
+                        }
+                    }
+
+                    override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
+                        Log.e("onFailure", t?.message)
+                        //callback.onDataNotAvailable()
+                    }
+                })
     }
 
     override fun refreshLooks() {
@@ -119,7 +179,35 @@ object LooksRemoteDataSource: LooksDataSource {
     }
 
     override fun deleteLook(auth: String, lookUid: String) {
+        RetrofitInitializer.service.deleteLook(auth, lookUid)
+                .enqueue(object: Callback<RedirectionInfo> {
+                    override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
+                        if (response!!.isSuccessful) {
+                            response.body()?.let {
+                                if (!it.error) {
+                                    Log.d("onSuccess", it.message)
+                                    //callback.onLookLoaded(look)
+                                } else {
+                                    Log.e("onFailure", it.message)
+                                    //callback.onDataNotAvailable()
+                                }
+                            }
+                        } else {
+                            try {
+                                val errorConverter = RetrofitInitializer.responseBodyConverter
+                                val error = errorConverter.convert(response.errorBody())
+                                Log.e("onFailure", error.message)
+                            } catch (e: IOException) {
+                                Log.e("onFailure", e.message)
+                            }
+                        }
+                    }
 
+                    override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
+                        Log.e("onFailure", t?.message)
+                        //callback.onDataNotAvailable()
+                    }
+                })
     }
 
     override fun deleteAllLooks() {

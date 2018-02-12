@@ -1,9 +1,6 @@
 package com.upco.kloset.repository.remote
 
-import com.upco.kloset.model.entity.Comment
-import com.upco.kloset.model.entity.Entity
-import com.upco.kloset.model.entity.Look
-import com.upco.kloset.model.entity.RedirectionInfo
+import com.upco.kloset.model.entity.*
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -12,6 +9,23 @@ import retrofit2.http.*
  */
 interface Service {
 
+    /* posts route methods */
+    @POST("posts")
+    fun createPost(@Header("Authorization") auth: String, @Body post: Post): Call<RedirectionInfo>
+
+    @GET("posts")
+    fun getPosts(@Header("Authorization") auth: String): Call<RedirectionInfo>
+
+    @GET("posts/{uid}")
+    fun getPost(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+
+    @PUT("posts/{uid}")
+    fun updatePost(@Header("Authorization") auth: String, @Path("uid") uid: String, @Body post: Post): Call<RedirectionInfo>
+
+    @DELETE("posts/{uid}")
+    fun deletePost(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+
+    /* looks route methods */
     @POST("looks")
     fun createLook(@Header("Authorization") auth: String, @Body look: Look): Call<RedirectionInfo>
 
@@ -25,13 +39,37 @@ interface Service {
     fun updateLook(@Header("Authorization") auth: String, @Path("uid") uid: String, @Body look: Look): Call<RedirectionInfo>
 
     @DELETE("looks/{uid}")
-    fun deleteLook(@Header("Authorization") auth: String, @Path("uid") uid: String, @Body look: Look): Call<RedirectionInfo>
+    fun deleteLook(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
 
-    @FormUrlEncoded
-    @POST("ctrl/CtrlComment.php")
-    fun getComments(@Field("method") method: String, @Field("lookUid") lookUid: String): Call<ArrayList<Comment>>
+    /* items route methods */
+    @POST("items")
+    fun createItem(@Header("Authorization") auth: String, @Body item: Item): Call<RedirectionInfo>
 
-    @FormUrlEncoded
-    @POST("ctrl/CtrlAnswer.php")
-    fun getAnswers(@Field("method") method: String, @Field("commentUid") commentUid: String): Call<ArrayList<Comment>>
+    @GET("items")
+    fun getItems(@Header("Authorization") auth: String): Call<RedirectionInfo>
+
+    @GET("items/{uid}")
+    fun getItem(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+
+    @PUT("items/{uid}")
+    fun updateItem(@Header("Authorization") auth: String, @Path("uid") uid: String, @Body item: Item): Call<RedirectionInfo>
+
+    @DELETE("items/{uid}")
+    fun deleteItem(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+
+    /* comments route methods */
+    @POST("comments")
+    fun createComment(@Header("Authorization") auth: String, @Body comment: Comment): Call<RedirectionInfo>
+
+    @GET("comments")
+    fun getComments(@Header("Authorization") auth: String): Call<RedirectionInfo>
+
+    @GET("comments/{uid}")
+    fun getComment(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+
+    @PUT("comments/{uid}")
+    fun updateComment(@Header("Authorization") auth: String, @Path("uid") uid: String, @Body comment: Comment): Call<RedirectionInfo>
+
+    @DELETE("comments/{uid}")
+    fun deleteComment(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
 }
