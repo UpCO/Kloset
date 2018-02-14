@@ -42,20 +42,20 @@ interface Service {
     fun deleteLook(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
 
     /* items route methods */
-    @POST("items")
-    fun createItem(@Header("Authorization") auth: String, @Body item: Item): Call<RedirectionInfo>
+    @POST("items/{look_uid}")
+    fun createItem(@Header("Authorization") auth: String, @Path("look_uid") lookUid: String, @Body item: Item): Call<RedirectionInfo>
 
-    @GET("items")
-    fun getItems(@Header("Authorization") auth: String): Call<RedirectionInfo>
+    @GET("items/{look_uid}")
+    fun getItems(@Header("Authorization") auth: String, @Path("look_uid") lookUid: String): Call<RedirectionInfo>
 
-    @GET("items/{uid}")
-    fun getItem(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+    @GET("items/{look_uid}/{uid}")
+    fun getItem(@Header("Authorization") auth: String, @Path("look_uid") lookUid: String, @Path("uid") uid: String): Call<RedirectionInfo>
 
-    @PUT("items/{uid}")
-    fun updateItem(@Header("Authorization") auth: String, @Path("uid") uid: String, @Body item: Item): Call<RedirectionInfo>
+    @PUT("items/{look_uid}/{uid}")
+    fun updateItem(@Header("Authorization") auth: String, @Path("look_uid") lookUid: String, @Path("uid") uid: String, @Body item: Item): Call<RedirectionInfo>
 
-    @DELETE("items/{uid}")
-    fun deleteItem(@Header("Authorization") auth: String, @Path("uid") uid: String): Call<RedirectionInfo>
+    @DELETE("items/{look_uid}/{uid}")
+    fun deleteItem(@Header("Authorization") auth: String, @Path("look_uid") lookUid: String, @Path("uid") uid: String): Call<RedirectionInfo>
 
     /* comments route methods */
     @POST("comments")

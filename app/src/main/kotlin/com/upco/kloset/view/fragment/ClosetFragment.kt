@@ -32,6 +32,7 @@ class ClosetFragment: Fragment(), ClosetContract.ViewImpl, OnLookSelectedListene
 
         presenter.attachView(this)
         presenter.retrieveLooks(savedInstanceState)
+        presenter.retrieveItems(savedInstanceState)
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -55,6 +56,7 @@ class ClosetFragment: Fragment(), ClosetContract.ViewImpl, OnLookSelectedListene
 
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putParcelableArrayList(ClosetContract.ViewImpl.LOOKS_KEY, presenter.getLooks())
+        //outState.putParcelableArrayList(ClosetContract.ViewImpl.ITEMS_KEY, presenter.getItems())
         super.onSaveInstanceState(outState)
     }
 
@@ -77,7 +79,7 @@ class ClosetFragment: Fragment(), ClosetContract.ViewImpl, OnLookSelectedListene
     }
 
     private fun setupGridRecycler() {
-        lookGridAdapter = LookGridRecyclerAdapter(presenter.getLooks(), context!!, peekAndPop!!, this)
+        lookGridAdapter = LookGridRecyclerAdapter(presenter.getLooks(), presenter, context!!, peekAndPop!!, this)
         closet_grid_recycler.adapter = lookGridAdapter
         if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
             closet_grid_recycler.layoutManager = GridLayoutManager(context, 3)

@@ -55,13 +55,14 @@ object LooksLocalDataSource: LooksDataSource {
     }
 
     override fun updateLook(auth: String, lookUid: String, look: Look) {
-        val realm = Realm.getDefaultInstance()
+        // TODO: Implementar função
+        //val realm = Realm.getDefaultInstance()
 
-        realm.beginTransaction()
-        realm.copyToRealmOrUpdate(look.toRealmLook())
-        realm.commitTransaction()
+        //realm.beginTransaction()
+        ///realm.copyToRealmOrUpdate(look.toRealmLook())
+        //realm.commitTransaction()
 
-        realm.close()
+        //realm.close()
     }
 
     override fun refreshLooks() {

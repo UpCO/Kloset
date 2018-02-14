@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
  */
 object RetrofitInitializer {
 
-    private val URI = "http://192.168.0.103:8888/kloset/v1/"
+    private val URI = "http://192.168.0.101:8888/kloset/v1/"
 
     private val retrofit = Retrofit.Builder()
             .baseUrl(URI)

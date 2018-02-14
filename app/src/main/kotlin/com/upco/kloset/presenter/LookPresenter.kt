@@ -6,6 +6,7 @@ import com.upco.kloset.contract.BaseContract
 import com.upco.kloset.contract.LookContract
 import com.upco.kloset.model.LookModel
 import com.upco.kloset.model.entity.Comment
+import com.upco.kloset.model.entity.Item
 import com.upco.kloset.model.entity.Look
 
 /**
@@ -14,6 +15,7 @@ import com.upco.kloset.model.entity.Look
 class LookPresenter: BaseContract.PresenterImpl<LookContract.ViewImpl> {
 
     private var look: Look? = null
+    private val items = arrayListOf<Item>()
     private val comments = arrayListOf<Comment>()
     private val model: LookContract.ModelImpl = LookModel(this)
     private var view: LookContract.ViewImpl? = null
@@ -34,6 +36,14 @@ class LookPresenter: BaseContract.PresenterImpl<LookContract.ViewImpl> {
         model.retrieveLook()
     }
 
+    fun retrieveItems(savedInstanceState: Bundle?) {
+        if (savedInstanceState != null) {
+            updateItems(savedInstanceState.getParcelableArrayList<Item>(LookContract.ViewImpl.ITEMS_KEY))
+            return
+        }
+        if (look != null) model.retrieveItems(look!!.uid)
+    }
+
     fun retrieveComments(savedInstanceState: Bundle?) {
         if (savedInstanceState != null) {
             updateComments(savedInstanceState.getParcelableArrayList<Comment>(LookContract.ViewImpl.COMMENTS_KEY))
@@ -46,7 +56,11 @@ class LookPresenter: BaseContract.PresenterImpl<LookContract.ViewImpl> {
         this.look = look
     }
 
-    fun getLook() = look!!
+    fun updateItems(items: ArrayList<Item>) {
+        this.items.clear()
+        this.items.addAll(items)
+        //view?.updateCommentsRecycler()
+    }
 
     fun updateComments(comments: ArrayList<Comment>) {
         this.comments.clear()
@@ -66,9 +80,15 @@ class LookPresenter: BaseContract.PresenterImpl<LookContract.ViewImpl> {
         }
     }
 
-    fun getComments(): ArrayList<Comment> {
-        return comments
-    }
+    fun getLook() = look!!
+
+    fun getItems() = items
+
+    fun getComments() = comments
+
+    fun getSelectedItem() = model.getSelectedItem()
+
+    fun setSelectedItem(item: Item) { model.setSelectedItem(item) }
 
     fun getSelectedComment() = model.getSelectedComment()
 

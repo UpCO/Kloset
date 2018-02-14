@@ -2,10 +2,15 @@ package com.upco.kloset.presenter
 
 import android.content.Context
 import android.os.Bundle
+import android.os.Handler
+import android.util.Log
 import com.upco.kloset.contract.BaseContract
 import com.upco.kloset.contract.ClosetContract
 import com.upco.kloset.model.ClosetModel
+import com.upco.kloset.model.entity.Item
 import com.upco.kloset.model.entity.Look
+import com.upco.kloset.repository.ItemsDataSource
+import com.upco.kloset.repository.ItemsRepository
 
 /**
  * Created by felps on 20/10/17.
@@ -13,6 +18,7 @@ import com.upco.kloset.model.entity.Look
 class ClosetPresenter: BaseContract.PresenterImpl<ClosetContract.ViewImpl> {
 
     private val looks = arrayListOf<Look>()
+    private val items = mutableMapOf<String, ArrayList<Item>>()
     private val model: ClosetContract.ModelImpl = ClosetModel(this)
     private var view: ClosetContract.ViewImpl? = null
 
@@ -30,6 +36,16 @@ class ClosetPresenter: BaseContract.PresenterImpl<ClosetContract.ViewImpl> {
             return
         }
         model.retrieveLooks()
+    }
+
+    fun retrieveItems(savedInstanceState: Bundle?) {
+        if (savedInstanceState != null) {
+            //for (look in looks) {
+            //    updateItems(look.uid, savedInstanceState.getParcelableArrayList<Item>(ClosetContract.ViewImpl.ITEMS_KEY))
+            //}
+            //return
+        }
+        if (looks.isNotEmpty()) for (look in looks) { model.retrieveItems(look.uid) }
     }
 
     fun getLooks() = looks
@@ -56,7 +72,18 @@ class ClosetPresenter: BaseContract.PresenterImpl<ClosetContract.ViewImpl> {
         }
     }
 
+    fun updateItems(lookUid: String, items: ArrayList<Item>) {
+        this.items.put(lookUid, items)
+        view?.updateLooksRecycler()
+    }
+
+    fun getItems() = items
+
     fun getSelectedLook(): Look? = model.getSelectedLook()
 
     fun setSelectedLook(look: Look) { model.setSelectedLook(look) }
+
+    fun getSelectedItem() = model.getSelectedItem()
+
+    fun setSelectedItem(item: Item) { model.setSelectedItem(item) }
 }

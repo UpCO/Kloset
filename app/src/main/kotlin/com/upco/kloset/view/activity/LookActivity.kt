@@ -37,6 +37,7 @@ class LookActivity: AppCompatActivity(), LookContract.ViewImpl, View.OnClickList
 
         presenter.attachView(this)
         presenter.retrieveLook(savedInstanceState)
+        presenter.retrieveItems(savedInstanceState)
         presenter.retrieveComments(savedInstanceState)
     }
 
@@ -60,6 +61,7 @@ class LookActivity: AppCompatActivity(), LookContract.ViewImpl, View.OnClickList
 
     override fun onSaveInstanceState(outState: Bundle?) {
         outState?.putParcelable(LookContract.ViewImpl.LOOK_KEY, presenter.getLook())
+        outState?.putParcelableArrayList(LookContract.ViewImpl.ITEMS_KEY, presenter.getItems())
         outState?.putParcelableArrayList(LookContract.ViewImpl.COMMENTS_KEY, presenter.getComments())
         super.onSaveInstanceState(outState)
     }

@@ -7,6 +7,8 @@ import com.upco.kloset.repository.LooksRepository
 import com.upco.kloset.presenter.ClosetPresenter
 import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.Item
+import com.upco.kloset.repository.ItemsDataSource
+import com.upco.kloset.repository.ItemsRepository
 
 /**
  * Created by felps on 20/10/17.
@@ -48,7 +50,23 @@ class ClosetModel(val presenter: ClosetPresenter): ClosetContract.ModelImpl {
         })
     }
 
+    override fun retrieveItems(lookUid: String) {
+        ItemsRepository.getItems("fa83107f-e67f-4097-bdec-4daabe26965b", lookUid, object: ItemsDataSource.LoadItemsCallback {
+            override fun onItemsLoaded(items: ArrayList<Item>) {
+                presenter.updateItems(lookUid, items)
+            }
+
+            override fun onDataNotAvailable() {
+                Log.e("Tagão", "Dados não disponíveis")
+            }
+        })
+    }
+
     override fun getSelectedLook() = LooksRepository.selectedLook
 
     override fun setSelectedLook(look: Look) { LooksRepository.selectedLook = look }
+
+    override fun getSelectedItem() = ItemsRepository.selectedItem
+
+    override fun setSelectedItem(item: Item) { ItemsRepository.selectedItem = item }
 }
