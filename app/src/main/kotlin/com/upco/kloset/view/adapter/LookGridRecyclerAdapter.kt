@@ -11,8 +11,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.peekandpop.shalskar.peekandpop.PeekAndPop
-import com.tomergoldst.tooltips.ToolTip
-import com.tomergoldst.tooltips.ToolTipsManager
 import com.upco.kloset.R
 import com.upco.kloset.extension.bind
 import com.upco.kloset.listener.OnLookSelectedListener
@@ -34,10 +32,6 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
     private val images = arrayListOf<String>()
     private val peekAndPopAdapter = LookSlidingImagesAdapter(images)
     private val peekView = peekAndPop.peekView
-    private val tooltipManager = ToolTipsManager()
-    private val likeTooltip = createTooltip(peekView.iv_like, "Curtir")
-    private val commentTooltip = createTooltip(peekView.iv_comment, "Comentar")
-    private val shareTooltip = createTooltip(peekView.iv_share, "Compartilhar")
 
     // Ao inicializar a classe, configura o PeekAndPop
     init { setupPeekAndPop() }
@@ -86,27 +80,18 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
         peekAndPop.setOnHoldAndReleaseListener(object: PeekAndPop.OnHoldAndReleaseListener {
             override fun onHold(view: View?, position: Int) {
                 when (view?.id) {
-                    R.id.iv_like -> {
-                        tooltipManager.show(likeTooltip)
-                        vibrate()
-                    }
-                    R.id.iv_comment -> {
-                        tooltipManager.show(commentTooltip)
-                        vibrate()
-                    }
-                    R.id.iv_share -> {
-                        tooltipManager.show(shareTooltip)
-                        vibrate()
-                    }
+                    R.id.iv_like    -> vibrate()
+                    R.id.iv_comment -> vibrate()
+                    R.id.iv_share   -> vibrate()
                 }
             }
 
             override fun onLeave(view: View?, position: Int) {
-                tooltipManager.findAndDismiss(view)
+
             }
 
             override fun onRelease(view: View?, position: Int) {
-                tooltipManager.findAndDismiss(view)
+
             }
         })
 
@@ -128,24 +113,15 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
     private fun loadPeekAndPop(position: Int) {
         // Adiciona as imagens de cada peça do look
         images.clear()
-        //for (item in looks[position].items) {
-        //    images += item.images
-        //}
+        for (item in looks[position].items_) {
+            images += item.images
+        }
 
         // Notifica o adapter que todos os itens do ArrayList foram alterados
         peekAndPopAdapter.notifyDataSetChanged()
 
         // Define o título do look e a quantidade de peças
         peekView.tv_title.text = looks[position].title
-    }
-
-    private fun createTooltip(anchor: View, text: String): ToolTip {
-        val tooltip = ToolTip.Builder(context, anchor, peekView.cv_root, text, ToolTip.POSITION_ABOVE)
-                .setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent))
-                .setTextColor(ContextCompat.getColor(context, android.R.color.black))
-                .build()
-
-        return tooltip
     }
 
     private fun vibrate() {
@@ -181,9 +157,9 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
         fun setupUI(look: Look) {
             // Adiciona as imagens de cada peça do look
             val images = arrayListOf<String>()
-            //for (item in look.items) {
-            //    images += item.images
-            //}
+            for (item in look.items_) {
+                images += item.images
+            }
 
             vp_look.adapter = LookSlidingImagesAdapter(images)
             vp_look.offscreenPageLimit = 2

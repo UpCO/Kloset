@@ -136,8 +136,8 @@ class LookActivity: AppCompatActivity(), LookContract.ViewImpl, View.OnClickList
                 "https://http2.mlstatic.com/S_183015-MLB25097628614_102016-O.jpg"
         )
         val items = arrayListOf(
-                Item(0, "kaskpodkas", "Teste 1", images),
-                Item(1, "mkpdfkgdfgdf", "Teste 2", images)
+                Item("kaskpodkas", "Teste 1", images),
+                Item("mkpdfkgdfgdf", "Teste 2", images)
         )
 
 

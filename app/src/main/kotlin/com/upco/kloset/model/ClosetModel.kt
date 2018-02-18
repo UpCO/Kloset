@@ -1,12 +1,16 @@
 package com.upco.kloset.model
 
 import android.util.Log
+import com.google.firebase.firestore.DocumentReference
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.FirebaseFirestoreSettings
 import com.upco.kloset.contract.ClosetContract
 import com.upco.kloset.repository.LooksDataSource
 import com.upco.kloset.repository.LooksRepository
 import com.upco.kloset.presenter.ClosetPresenter
-import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.Item
+import com.upco.kloset.model.entity.Look
+import java.util.*
 
 /**
  * Created by felps on 20/10/17.
@@ -37,7 +41,7 @@ class ClosetModel(val presenter: ClosetPresenter): ClosetContract.ModelImpl {
         presenter.updateLooks(looks)
         */
 
-        LooksRepository.getLooks("bc2bd5b1-45ce-418a-a66b-c31e589957c4", object: LooksDataSource.LoadLooksCallback {
+        LooksRepository.getLooks("GbD8Nxi0DdaPo6xKHNKhBwmc0Nj1", object: LooksDataSource.LoadLooksCallback {
             override fun onLooksLoaded(looks: ArrayList<Look>) {
                 presenter.updateLooks(looks)
             }
@@ -46,6 +50,83 @@ class ClosetModel(val presenter: ClosetPresenter): ClosetContract.ModelImpl {
                 Log.e("Tagão", "Dados não disponíveis")
             }
         })
+    }
+
+    fun generateRandomData() {
+        val settings = FirebaseFirestoreSettings.Builder()
+                .setPersistenceEnabled(true)
+                .build()
+        val db = FirebaseFirestore.getInstance()
+        val batch = db.batch()
+
+        val rand = Random()
+        val image = "https://picsum.photos/50/?random"
+        val itemsRef = arrayListOf<DocumentReference>()
+        val looksRef = arrayListOf<DocumentReference>()
+
+        // Add items
+        val item = mutableMapOf<String, Any>()
+        item.put("title", "Item de Teste")
+        item.put("updated_at", Date())
+        item.put("created_at", Date())
+        for (index in 0..10) {
+            val itemRef = db.collection("items").document()
+            itemsRef.add(itemRef)
+
+            val imgs = arrayListOf<String>()
+            imgs.add(image)
+            imgs.add(image)
+            imgs.add(image)
+            imgs.add(image)
+
+            item["uid"] = itemRef.id
+            item["title"] = "Item de Teste " + index
+            item["images"] = imgs
+
+            batch.set(itemRef, item)
+        }
+
+        // Add looks
+        val look = mutableMapOf<String, Any>()
+        look.put("title", "Look de Teste")
+        look.put("privacy", 0)
+        look.put("num_items", 5)
+        look.put("num_likes", 5)
+        look.put("num_comments", 5)
+        look.put("num_shares", 5)
+        look.put("updated_at", Date())
+        look.put("created_at", Date())
+        for (index in 0..50) {
+            val lookRef = db.collection("looks").document()
+            looksRef.add(lookRef)
+
+            val items = arrayListOf<DocumentReference>()
+            items.add(itemsRef.get(rand.nextInt(itemsRef.size)))
+            items.add(itemsRef.get(rand.nextInt(itemsRef.size)))
+            items.add(itemsRef.get(rand.nextInt(itemsRef.size)))
+            items.add(itemsRef.get(rand.nextInt(itemsRef.size)))
+
+            look["uid"] = lookRef.id
+            look["title"] = "Look de Teste " + index
+            look["items"] = items
+
+            batch.set(lookRef, look)
+        }
+
+        // Add looks references to user
+        val userRef = db.collection("users").document("GbD8Nxi0DdaPo6xKHNKhBwmc0Nj1")
+        batch.update(userRef, "looks", looksRef)
+
+        batch.commit()
+                .addOnCompleteListener {
+                    task -> run {
+                        if (task.isSuccessful) {
+                            Log.d("onSuccess", "Batch commited successfully")
+                        } else {
+                            Log.e("onFailure", "Error commiting batch: " + task.exception)
+                        }
+                    }
+                }
     }
 
     override fun getSelectedLook() = LooksRepository.selectedLook

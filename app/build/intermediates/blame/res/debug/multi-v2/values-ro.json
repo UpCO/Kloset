@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\felps\\AndroidProjects\\Kloset\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "/Users/felps/StudioProjects/Kloset/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\40e8301109a894b30cfd771a7450bc63\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/16d2dd2265b33a220f3383fbc18d9310/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -13,21 +13,45 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "21",
                         "startColumns": "4",
-                        "startOffsets": "2013",
+                        "startOffsets": "2217",
                         "endColumns": "100",
-                        "endOffsets": "2109"
+                        "endOffsets": "2313"
                     }
                 },
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a7a8aa06a652d25f2ad836ceacdbab88\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/418a9cc91c5634676e94f215d90c3d60/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "105,226,330,443,531,643,764,849,930,1013,1125,1238,1338,1452,1557,1663,1827,1930",
                         "endColumns": "120,103,112,87,111,120,84,80,82,111,112,99,113,104,105,163,102,82",
                         "endOffsets": "221,325,438,526,638,759,844,925,1008,1120,1233,1333,1447,1552,1658,1822,1925,2008"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,226,330,443,531,643,764,849,930,1013,1125,1238,1338,1452,1557,1663,1827,2134",
+                        "endColumns": "120,103,112,87,111,120,84,80,82,111,112,99,113,104,105,163,102,82",
+                        "endOffsets": "221,325,438,526,638,759,844,925,1008,1120,1233,1333,1447,1552,1658,1822,1925,2212"
+                    }
+                },
+                {
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/aa6ea2bec164a698b2f2682c63c8cd20/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "203",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1930",
+                        "endColumns": "203",
+                        "endOffsets": "2129"
                     }
                 }
             ]

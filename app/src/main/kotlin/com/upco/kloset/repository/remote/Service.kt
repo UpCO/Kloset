@@ -1,7 +1,6 @@
 package com.upco.kloset.repository.remote
 
 import com.upco.kloset.model.entity.Comment
-import com.upco.kloset.model.entity.Entity
 import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.RedirectionInfo
 import retrofit2.Call

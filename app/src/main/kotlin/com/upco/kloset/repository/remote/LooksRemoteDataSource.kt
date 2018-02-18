@@ -1,6 +1,10 @@
 package com.upco.kloset.repository.remote
 
 import android.util.Log
+import com.google.firebase.firestore.DocumentReference
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.FirebaseFirestoreSettings
+import com.upco.kloset.model.entity.Item
 import com.upco.kloset.repository.LooksDataSource
 import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.RedirectionInfo
@@ -16,97 +20,99 @@ import java.io.IOException
 object LooksRemoteDataSource: LooksDataSource {
 
     override fun getLooks(auth: String, callback: LooksDataSource.LoadLooksCallback) {
-        RetrofitInitializer.service.getLooks(auth)
-                .enqueue(object: Callback<RedirectionInfo> {
-                    override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
-                        if (response!!.isSuccessful) {
-                            response.body()?.let {
-                                if (!it.error) {
-                                    Log.d("onSuccess", it.message)
+        val settings = FirebaseFirestoreSettings.Builder()
+                .setPersistenceEnabled(true)
+                .build()
+        val db = FirebaseFirestore.getInstance()
+        db.setFirestoreSettings(settings)
 
-                                    val looks = arrayListOf<Look>()
-                                    for (param in it.parameters) {
-                                        val look = Look()
-                                        look.id          = param["id"]!!.toLong()
-                                        look.uid         = param["uid"]!!
-                                        look.title       = param["title"]!!
-                                        look.privacy     = param["privacy"]!!.toInt()
-                                        look.numItems    = param["num_items"]!!.toInt()
-                                        look.numLikes    = param["num_likes"]!!.toInt()
-                                        look.numComments = param["num_comments"]!!.toInt()
-                                        look.numShares   = param["num_shares"]!!.toInt()
-                                        look.updatedAt   = param["updated_at"]!!
-                                        look.createdAt   = param["created_at"]!!
-                                        looks.add(look)
-                                    }
-                                    callback.onLooksLoaded(looks)
-                                } else {
-                                    Log.e("onFailure", it.message)
-                                    callback.onDataNotAvailable()
-                                }
+        db.collection("users").document(auth)
+                .get()
+                .addOnCompleteListener {
+                    userTask -> run {
+                        if (userTask.isSuccessful) {
+                            val userResult = userTask.result
+                            val looks = arrayListOf<Look>()
+
+                            // Getting looks
+                            for (lookRef in userResult["looks"] as java.util.ArrayList<DocumentReference>) {
+                                lookRef.get()
+                                        .addOnCompleteListener {
+                                            lookTask -> run {
+                                                if (lookTask.isSuccessful) {
+                                                    val lookResult = lookTask.result
+                                                    val look = lookResult.toObject(Look::class.java)
+
+                                                    // Getting look items
+                                                    for (itemRef in lookResult["items"] as java.util.ArrayList<DocumentReference>) {
+                                                        itemRef.get()
+                                                                .addOnCompleteListener {
+                                                                    itemTask -> run {
+                                                                        if (itemTask.isSuccessful) {
+                                                                            val itemResult = itemTask.result
+                                                                            val item = itemResult.toObject(Item::class.java)
+
+                                                                            look.items_.add(item)
+                                                                        } else {
+                                                                            Log.e("onFailure", "Error getting data: " + itemTask.exception)
+                                                                        }
+                                                                    }
+                                                                }
+                                                    }
+
+                                                    looks.add(look)
+                                                } else {
+                                                    Log.e("onFailure", "Error getting data: " + lookTask.exception)
+                                                }
+                                            }
+                                        }
                             }
+                            Log.d("LoggedLook", "Qt: " + looks.size)
+                            callback.onLooksLoaded(looks)
                         } else {
-                            try {
-                                val errorConverter = RetrofitInitializer.responseBodyConverter
-                                val error = errorConverter.convert(response.errorBody())
-                                Log.e("onFailure", error.message)
-                            } catch (e: IOException) {
-                                Log.e("onFailure", e.message)
-                            }
+                            Log.e("onFailure", "Error getting data: " + userTask.exception)
                         }
                     }
-
-                    override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
-                        Log.e("onFailure", t?.message)
-                        callback.onDataNotAvailable()
-                    }
-                })
+                }
     }
 
     override fun getLook(auth: String, lookUid: String, callback: LooksDataSource.GetLookCallback) {
-        RetrofitInitializer.service.getLook(auth, lookUid)
-                .enqueue(object: Callback<RedirectionInfo> {
-                    override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
-                        if (response!!.isSuccessful) {
-                            response.body()?.let {
-                                if (!it.error) {
-                                    Log.d("onSuccess", it.message)
+        val db = FirebaseFirestore.getInstance()
+        db.collection("looks").document(lookUid)
+                .get()
+                .addOnCompleteListener { task ->
+                    run {
+                        if (task.isSuccessful) {
+                            Log.d("onSuccess", "Look loaded successfully")
 
-                                    val look = Look()
-                                    for (param in it.parameters) {
-                                        look.id          = param["id"]!!.toLong()
-                                        look.uid         = param["uid"]!!
-                                        look.title       = param["title"]!!
-                                        look.privacy     = param["privacy"]!!.toInt()
-                                        look.numItems    = param["num_items"]!!.toInt()
-                                        look.numLikes    = param["num_likes"]!!.toInt()
-                                        look.numComments = param["num_comments"]!!.toInt()
-                                        look.numShares   = param["num_shares"]!!.toInt()
-                                        look.updatedAt   = param["updated_at"]!!
-                                        look.createdAt   = param["created_at"]!!
-                                    }
-                                    callback.onLookLoaded(look)
-                                } else {
-                                    Log.e("onFailure", it.message)
-                                    callback.onDataNotAvailable()
-                                }
+                            val document = task.result
+                            val look = document.toObject(Look::class.java)
+
+                            // Getting look items
+                            for (item in document.data.get("items") as ArrayList<DocumentReference>) {
+                                item.get()
+                                        .addOnCompleteListener { t ->
+                                            run {
+                                                if (t.isSuccessful) {
+                                                    Log.d("onSuccess", "Item loaded successfully")
+
+                                                    val i = t.result.toObject(Item::class.java)
+                                                    look.items_.add(i)
+                                                } else {
+                                                    Log.e("onFailure", "Error getting data: " + t.exception)
+                                                    callback.onDataNotAvailable()
+                                                }
+                                            }
+                                        }
                             }
+
+                            callback.onLookLoaded(look)
                         } else {
-                            try {
-                                val errorConverter = RetrofitInitializer.responseBodyConverter
-                                val error = errorConverter.convert(response.errorBody())
-                                Log.e("onFailure", error.message)
-                            } catch (e: IOException) {
-                                Log.e("onFailure", e.message)
-                            }
+                            Log.e("onFailure", "Error getting data: " + task.exception)
+                            callback.onDataNotAvailable()
                         }
                     }
-
-                    override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
-                        Log.e("onFailure", t?.message)
-                        callback.onDataNotAvailable()
-                    }
-                })
+                }
     }
 
     override fun saveLook(auth: String, look: Look) {

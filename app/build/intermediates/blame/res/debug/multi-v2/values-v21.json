@@ -1,29 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\felps\\AndroidProjects\\Kloset\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/Users/felps/StudioProjects/Kloset/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\40e8301109a894b30cfd771a7450bc63\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/7cb5a898de1d46faa6259cef06523229/res/values-v21/values-v21.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,266",
+                        "endLines": "4,5",
+                        "endColumns": "12,96",
+                        "endOffsets": "261,358"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,267,268,275,279,283,286",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19573,19689,20146,20440,20735,20907",
-                        "endLines": "2,3,4,5,267,268,275,279,285,290",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19684,19810,20267,20563,20902,21240"
+                        "startLines": "164,228",
+                        "startColumns": "4,4",
+                        "startOffsets": "12577,17127",
+                        "endLines": "166,228",
+                        "endColumns": "12,96",
+                        "endOffsets": "12783,17219"
                     }
                 },
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a7a8aa06a652d25f2ad836ceacdbab88\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/418a9cc91c5634676e94f215d90c3d60/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\6581d242a0e6b6cb8b06d955a3b8026e\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/16d2dd2265b33a220f3383fbc18d9310/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,267,268,275,279,283,286",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,19573,19689,20146,20440,20735,20907",
+                        "endLines": "2,3,4,5,267,268,275,279,285,290",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,19684,19810,20267,20563,20902,21240"
+                    }
+                },
+                {
+                    "source": "/Users/felps/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/f46bc888cfd0138ebfdd7c111d88d825/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -58,25 +77,6 @@
                         "endLines": "271,274,278,282",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "19978,20141,20435,20730"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\felps\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\edd8b0681f7975b620f4e13be2048801\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,266",
-                        "endLines": "4,5",
-                        "endColumns": "12,96",
-                        "endOffsets": "261,358"
-                    },
-                    "to": {
-                        "startLines": "164,228",
-                        "startColumns": "4,4",
-                        "startOffsets": "12577,17127",
-                        "endLines": "166,228",
-                        "endColumns": "12,96",
-                        "endOffsets": "12783,17219"
                     }
                 }
             ]

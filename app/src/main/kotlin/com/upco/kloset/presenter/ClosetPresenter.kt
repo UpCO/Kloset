@@ -43,7 +43,6 @@ class ClosetPresenter: BaseContract.PresenterImpl<ClosetContract.ViewImpl> {
     fun updateLook(look: Look) {
         for ((index, l) in looks.withIndex()) {
             if (l.uid == look.uid) {
-                l.id            = look.id
                 l.uid           = look.uid
                 l.title         = look.title
                 l.privacy       = look.privacy
@@ -54,6 +53,11 @@ class ClosetPresenter: BaseContract.PresenterImpl<ClosetContract.ViewImpl> {
                 view?.updateLooksRecyclerItem(index)
             }
         }
+    }
+
+    fun addLook(look: Look) {
+        looks += look
+        view?.updateLooksRecycler()
     }
 
     fun getSelectedLook(): Look? = model.getSelectedLook()

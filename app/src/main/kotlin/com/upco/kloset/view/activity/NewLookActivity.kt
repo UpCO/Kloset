@@ -82,16 +82,16 @@ class NewLookActivity: AppCompatActivity(), NewLookContract.ViewImpl {
         )
 
         val lookItems = arrayListOf(
-                Item(0, "saoudjas", "Title 1", images),
-                Item(1, "ajsiodoaks", "Title 2", images),
-                Item(2, "adsijodasik", "Title 3", images),
-                Item(3, "adsdasd", "Title 4", images),
-                Item(4, "dfggdfgf", "Title 5", images),
-                Item(5, "hgjghjgtr", "Title 6", images),
-                Item(6, "klikuy", "Title 7", images),
-                Item(7, "ilopluk", "Title 8", images),
-                Item(8, "jhkço", "Title 9", images),
-                Item(9, "trhgbn", "Title 10", images)
+                Item("saoudjas", "Title 1", images),
+                Item("ajsiodoaks", "Title 2", images),
+                Item("adsijodasik", "Title 3", images),
+                Item("adsdasd", "Title 4", images),
+                Item("dfggdfgf", "Title 5", images),
+                Item("hgjghjgtr", "Title 6", images),
+                Item("klikuy", "Title 7", images),
+                Item("ilopluk", "Title 8", images),
+                Item("jhkço", "Title 9", images),
+                Item("trhgbn", "Title 10", images)
         )
 
         newLookItemsAdapter = NewLookItemRecyclerAdapter(lookItems, this)

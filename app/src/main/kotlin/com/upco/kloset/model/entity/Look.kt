@@ -2,43 +2,34 @@ package com.upco.kloset.model.entity
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.google.gson.annotations.Expose
-import com.google.gson.annotations.SerializedName
+import com.google.firebase.firestore.Exclude
+import com.google.firebase.firestore.IgnoreExtraProperties
+import com.google.firebase.firestore.PropertyName
 import com.upco.kloset.repository.local.entity.RealmLook
+import java.util.*
+import kotlin.collections.ArrayList
 
 /**
  * Created by felps on 19/10/17.
  */
-class Look(@Expose(serialize = false)
-           @SerializedName("id")
-           var id: Long = 0,
-           @Expose(serialize = false)
-           @SerializedName("uid")
-           var uid: String = "",
-           @Expose
-           @SerializedName("title")
+@IgnoreExtraProperties
+class Look(var uid: String = "",
            var title: String = "",
-           @Expose
-           @SerializedName("privacy")
            var privacy: Int = 0,
-           @Expose
-           @SerializedName("num_items")
+           @Exclude
+           var items_: ArrayList<Item> = arrayListOf(),
+           @PropertyName("num_items")
            var numItems: Int = 0,
-           @Expose
-           @SerializedName("num_likes")
+           @PropertyName("num_likes")
            var numLikes: Int = 0,
-           @Expose
-           @SerializedName("num_comments")
+           @PropertyName("num_comments")
            var numComments: Int = 0,
-           @Expose
-           @SerializedName("num_shares")
+           @PropertyName("num_shares")
            var numShares: Int = 0,
-           @Expose(serialize = false)
-           @SerializedName("updated_at")
-           var updatedAt: String = "",
-           @Expose(serialize = false)
-           @SerializedName("created_at")
-           var createdAt: String = ""): Parcelable {
+           @PropertyName("updated_at")
+           var updatedAt: Date = Date(),
+           @PropertyName("created_at")
+           var createdAt: Date = Date()): Parcelable {
 
     enum class Privacy(val privacy: Int) {
         VISIBLE_FOR_ALL(1),
@@ -53,34 +44,34 @@ class Look(@Expose(serialize = false)
     }
 
     protected constructor(parcel: Parcel) : this() {
-        this.id = parcel.readLong()
         this.uid = parcel.readString()
         this.title = parcel.readString()
         this.privacy = parcel.readInt()
+        this.items_.addAll(parcel.createTypedArrayList(Item.CREATOR))
         this.numItems = parcel.readInt()
         this.numLikes = parcel.readInt()
         this.numComments = parcel.readInt()
         this.numShares = parcel.readInt()
-        this.updatedAt = parcel.readString()
-        this.createdAt = parcel.readString()
+        this.updatedAt = Date(parcel.readLong())
+        this.createdAt = Date(parcel.readLong())
     }
 
     override fun describeContents() = 0
 
     override fun writeToParcel(dest: Parcel?, flags: Int) {
-        dest?.writeLong(this.id)
         dest?.writeString(this.uid)
         dest?.writeString(this.title)
         dest?.writeInt(this.privacy)
+        dest?.writeTypedList(this.items_)
         dest?.writeInt(this.numItems)
         dest?.writeInt(this.numLikes)
         dest?.writeInt(this.numComments)
         dest?.writeInt(this.numShares)
-        dest?.writeString(this.updatedAt)
-        dest?.writeString(this.createdAt)
+        dest?.writeLong(this.updatedAt.time)
+        dest?.writeLong(this.createdAt.time)
     }
 
     fun toRealmLook(): RealmLook {
-        return RealmLook(id, uid, title, privacy, numItems, numLikes, numComments, numShares, updatedAt, createdAt)
+        return RealmLook(0, uid, title, privacy, numItems, numLikes, numComments, numShares, "", "")
     }
 }

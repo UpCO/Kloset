@@ -3,6 +3,7 @@ package com.upco.kloset.repository.local.entity
 import com.upco.kloset.model.entity.Look
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
+import java.util.*
 
 /**
  * Created by felps on 22/10/17.
@@ -20,6 +21,6 @@ open class RealmLook(@PrimaryKey
                      var createdAt: String = ""): RealmObject() {
 
     fun toLook(): Look {
-        return Look(id, uid, title, privacy, numItems, numLikes, numComments, numShares, updatedAt, createdAt)
+        return Look(uid, title, privacy, arrayListOf(), numItems, numLikes, numComments, numShares, Date(), Date())
     }
 }
