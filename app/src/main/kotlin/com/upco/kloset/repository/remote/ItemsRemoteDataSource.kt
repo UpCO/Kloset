@@ -23,12 +23,12 @@ object ItemsRemoteDataSource: ItemsDataSource {
                                     val items = arrayListOf<Item>()
                                     for (param in it.parameters) {
                                         val item = Item()
-                                        item.id          = param["id"]!!.toLong()
-                                        item.uid         = param["uid"]!!
-                                        item.title       = param["title"]!!
-                                        item.images.add(param["images"]!!)
-                                        item.updatedAt   = param["updated_at"]!!
-                                        item.createdAt   = param["created_at"]!!
+                                        item.id          = param["id"].toString().toLong()
+                                        item.uid         = param["uid"].toString()
+                                        item.title       = param["title"].toString()
+                                        item.images      = param["images"].toString()
+                                        item.updatedAt   = param["updated_at"].toString()
+                                        item.createdAt   = param["created_at"].toString()
                                         items.add(item)
                                     }
                                     callback.onItemsLoaded(items)
@@ -66,12 +66,12 @@ object ItemsRemoteDataSource: ItemsDataSource {
 
                                     val item = Item()
                                     for (param in it.parameters) {
-                                        item.id          = param["id"]!!.toLong()
-                                        item.uid         = param["uid"]!!
-                                        item.title       = param["title"]!!
-                                        item.images.add(param["images"]!!)
-                                        item.updatedAt   = param["updated_at"]!!
-                                        item.createdAt   = param["created_at"]!!
+                                        item.id          = param["id"].toString().toLong()
+                                        item.uid         = param["uid"].toString()
+                                        item.title       = param["title"].toString()
+                                        item.images      = param["images"].toString()
+                                        item.updatedAt   = param["updated_at"].toString()
+                                        item.createdAt   = param["created_at"].toString()
                                     }
                                     callback.onItemLoaded(item)
                                 } else {
@@ -97,7 +97,7 @@ object ItemsRemoteDataSource: ItemsDataSource {
                 })
     }
 
-    override fun saveItem(auth: String, lookUid: String, item: Item) {
+    override fun saveItem(auth: String, lookUid: String, item: Item, callback: ItemsDataSource.SaveItemCallback) {
         RetrofitInitializer.service.createItem(auth, lookUid, item)
                 .enqueue(object: Callback<RedirectionInfo> {
                     override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
@@ -105,10 +105,12 @@ object ItemsRemoteDataSource: ItemsDataSource {
                             response.body()?.let {
                                 if (!it.error) {
                                     Log.d("onSuccess", it.message)
-                                    //callback.onLookLoaded(look)
+
+                                    val itemUid = it.parameters[0]["uid"].toString()
+                                    callback.onItemSaved(itemUid)
                                 } else {
                                     Log.e("onFailure", it.message)
-                                    //callback.onDataNotAvailable()
+                                    callback.onError()
                                 }
                             }
                         } else {
@@ -124,7 +126,7 @@ object ItemsRemoteDataSource: ItemsDataSource {
 
                     override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
                         Log.e("onFailure", t?.message)
-                        //callback.onDataNotAvailable()
+                        callback.onError()
                     }
                 })
     }

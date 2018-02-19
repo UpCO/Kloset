@@ -9,6 +9,7 @@ import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.Item
 import com.upco.kloset.repository.ItemsDataSource
 import com.upco.kloset.repository.ItemsRepository
+import java.util.*
 
 /**
  * Created by felps on 20/10/17.
@@ -48,6 +49,50 @@ class ClosetModel(val presenter: ClosetPresenter): ClosetContract.ModelImpl {
                 Log.e("Tagão", "Dados não disponíveis")
             }
         })
+    }
+
+    fun generateRandomLooks() {
+        val rand = Random()
+        val look = Look(0, "", "", 0, arrayListOf(), 5, 5, 5, 5, "", "")
+        val items = arrayListOf(
+            Item(0, "", "Item de Teste #1", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #2", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #3", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #4", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #5", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #6", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #7", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #8", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #9", "https://picsum.photos/50/?random","", ""),
+            Item(0, "", "Item de Teste #10", "https://picsum.photos/50/?random","", "")
+        )
+
+        var lookUid_ = "98ac478e-a809-48a3-a187-f255eb6835ee"
+        for (index in 1..50) {
+            look.title = "Look de Teste #" + index
+            LooksRepository.saveLook("fa83107f-e67f-4097-bdec-4daabe26965b", look, object: LooksDataSource.SaveLookCallback {
+                override fun onLookSaved(lookUid: String) {
+                    Log.d("Tagão", "Look salvo com sucesso: " + lookUid)
+                }
+
+                override fun onError() {
+                    Log.e("Tagão", "Os dados não foram salvos")
+                }
+            })
+        }
+
+        for (itemIndex in 1..4) {
+            val item = items[rand.nextInt(9)]
+            ItemsRepository.saveItem("fa83107f-e67f-4097-bdec-4daabe26965b", lookUid_, item, object: ItemsDataSource.SaveItemCallback {
+                override fun onItemSaved(itemUid: String) {
+                    Log.d("Tagão", "Look salvo com sucesso")
+                }
+
+                override fun onError() {
+                    Log.e("Tagão", "Os dados não foram salvos")
+                }
+            })
+        }
     }
 
     override fun retrieveItems(lookUid: String) {

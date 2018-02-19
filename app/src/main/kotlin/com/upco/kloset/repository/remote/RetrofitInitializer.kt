@@ -1,6 +1,7 @@
 package com.upco.kloset.repository.remote
 
 import com.google.gson.GsonBuilder
+import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.RedirectionInfo
 import okhttp3.ResponseBody
 import retrofit2.Converter

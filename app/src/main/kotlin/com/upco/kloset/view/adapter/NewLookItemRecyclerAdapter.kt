@@ -113,7 +113,7 @@ class NewLookItemRecyclerAdapter(val items: ArrayList<Item>, val context: Contex
         fun setupUI(item: Item) {
             // Carrega a imagem da peça
             Picasso.with(iv_item?.context)
-                    .load(item.images[0]) // TODO: Transformar em slider
+                    .load(item.images) // TODO: Transformar em slider
                     .into(iv_item)
         }
     }

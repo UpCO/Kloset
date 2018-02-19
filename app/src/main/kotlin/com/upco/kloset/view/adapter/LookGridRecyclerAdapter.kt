@@ -12,8 +12,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.peekandpop.shalskar.peekandpop.PeekAndPop
-import com.tomergoldst.tooltips.ToolTip
-import com.tomergoldst.tooltips.ToolTipsManager
 import com.upco.kloset.R
 import com.upco.kloset.extension.bind
 import com.upco.kloset.listener.OnLookSelectedListener
@@ -32,7 +30,6 @@ import kotlin.collections.ArrayList
  * Created by felps on 28/10/17.
  */
 class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
-                              val presenter: ClosetPresenter,
                               val context: Context,
                               val peekAndPop: PeekAndPop,
                               val listener: OnLookSelectedListener): RecyclerView.Adapter<LookGridRecyclerAdapter.ViewHolder>() {
@@ -54,7 +51,7 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
 
     override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
         peekAndPop.addLongClickView(holder!!.view, position)
-        holder.setupUI(looks[position], presenter.getItems()[looks[position].uid])
+        holder.setupUI(looks[position])
     }
 
     override fun getItemCount(): Int = looks.size
@@ -121,7 +118,7 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
     private fun loadPeekAndPop(position: Int) {
         // Adiciona as imagens de cada peça do look
         images.clear()
-        for (item in presenter.getItems()[looks[position].uid]!!.iterator()) {
+        for (item in looks[position].items) {
             images += item.images
         }
 
@@ -162,13 +159,11 @@ class LookGridRecyclerAdapter(val looks: ArrayList<Look>,
             context.startActivity(intent)
         }
 
-        fun setupUI(look: Look, items: ArrayList<Item>?) {
+        fun setupUI(look: Look) {
             // Adiciona as imagens de cada peça do look
             val images = arrayListOf<String>()
-            if (items != null) {
-                for (item in items) {
-                    images += item.images
-                }
+            for (item in look.items) {
+                images += item.images
             }
 
             vp_look.adapter = LookSlidingImagesAdapter(images)

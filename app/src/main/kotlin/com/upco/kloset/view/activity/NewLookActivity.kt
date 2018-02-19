@@ -82,16 +82,16 @@ class NewLookActivity: AppCompatActivity(), NewLookContract.ViewImpl {
         )
 
         val lookItems = arrayListOf(
-                Item(0, "saoudjas", "Title 1", images),
-                Item(1, "ajsiodoaks", "Title 2", images),
-                Item(2, "adsijodasik", "Title 3", images),
-                Item(3, "adsdasd", "Title 4", images),
-                Item(4, "dfggdfgf", "Title 5", images),
-                Item(5, "hgjghjgtr", "Title 6", images),
-                Item(6, "klikuy", "Title 7", images),
-                Item(7, "ilopluk", "Title 8", images),
-                Item(8, "jhkço", "Title 9", images),
-                Item(9, "trhgbn", "Title 10", images)
+                Item(0, "saoudjas", "Title 1", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(1, "ajsiodoaks", "Title 2", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(2, "adsijodasik", "Title 3", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(3, "adsdasd", "Title 4", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(4, "dfggdfgf", "Title 5", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(5, "hgjghjgtr", "Title 6", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(6, "klikuy", "Title 7", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(7, "ilopluk", "Title 8", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(8, "jhkço", "Title 9", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg"),
+                Item(9, "trhgbn", "Title 10", "http://laylamonteiro.com/wp-content/uploads/2016/03/lolla-001.jpg")
         )
 
         newLookItemsAdapter = NewLookItemRecyclerAdapter(lookItems, this)

@@ -44,7 +44,7 @@ object LooksLocalDataSource: LooksDataSource {
         realm.close()
     }
 
-    override fun saveLook(auth: String, look: Look) {
+    override fun saveLook(auth: String, look: Look, callback: LooksDataSource.SaveLookCallback) {
         val realm = Realm.getDefaultInstance()
 
         realm.beginTransaction()

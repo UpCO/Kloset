@@ -21,7 +21,8 @@ data class Item(@Expose(serialize = false)
                 var title: String = "",
                 @Expose
                 @SerializedName("images")
-                var images: ArrayList<String> = arrayListOf(),
+                var images: String = "",
+//                var images: ArrayList<String> = arrayListOf(),
                 @Expose(serialize = false)
                 @SerializedName("updated_at")
                 var updatedAt: String = "",
@@ -42,7 +43,8 @@ data class Item(@Expose(serialize = false)
         this.id = parcel.readLong()
         this.uid = parcel.readString()
         this.title = parcel.readString()
-        this.images.addAll(parcel.createStringArrayList())
+        this.images = parcel.readString()
+        //this.images.addAll(parcel.createStringArrayList())
     }
 
     override fun describeContents() = 0
@@ -51,12 +53,13 @@ data class Item(@Expose(serialize = false)
         dest?.writeLong(this.id)
         dest?.writeString(this.uid)
         dest?.writeString(this.title)
-        dest?.writeStringList(this.images)
+        dest?.writeString(this.images)
+        //dest?.writeStringList(this.images)
     }
 
     fun toRealmItem(): RealmItem {
         val realmImages = RealmList<String>()
-        realmImages.addAll(images)
+        realmImages.add(images)
         return RealmItem(id, uid, title, realmImages)
     }
 }

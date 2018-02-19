@@ -38,7 +38,7 @@ class LookItemRecyclerAdapter(val items: ArrayList<Item>, val context: Context):
         fun setupUI(item: Item) {
             // Carrega a imagem no ImageView
             Picasso.with(iv_item.context)
-                    .load(item.images[0]) // TODO: Implementar um slide com todas as imagens, por enquanto usa apenas a 1 imagem
+                    .load(item.images) // TODO: Implementar um slide com todas as imagens, por enquanto usa apenas a 1 imagem
                     .into(iv_item)
         }
     }

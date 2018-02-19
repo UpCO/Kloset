@@ -16,6 +16,7 @@ class RedirectionInfoDeserializer: JsonDeserializer<RedirectionInfo> {
         private val KEY_ERROR = "error"
         private val KEY_MESSAGE = "message"
         private val KEY_PARAMETERS = "parameters"
+        private val KEY_ITEMS = "items"
     }
 
     override fun deserialize(json: JsonElement?, typeOfT: Type?, context: JsonDeserializationContext?): RedirectionInfo {
@@ -31,22 +32,40 @@ class RedirectionInfoDeserializer: JsonDeserializer<RedirectionInfo> {
         return RedirectionInfo(error!!, message!!, parameters!!)
     }
 
-    private fun readParametersMap(jsonObject: JsonObject?): ArrayList<Map<String, String>>? {
+    private fun readParametersMap(jsonObject: JsonObject?): ArrayList<Map<String, Any>>? {
         val paramsElement = jsonObject!![KEY_PARAMETERS] ?: return null
         val paramsArray = paramsElement.asJsonArray
 
-        val params = arrayListOf<Map<String, String>>()
+        val params = arrayListOf<Map<String, Any>>()
         for (element: JsonElement in paramsArray) {
             val obj = element.asJsonObject
 
-            val map = hashMapOf<String, String>()
+            val paramsMap = hashMapOf<String, Any>()
             for (entry: Map.Entry<String, JsonElement> in obj.entrySet()) {
-                val key = entry.key
-                val value = entry.value.asString
-                map.put(key, value)
+                when (entry.key) {
+                    KEY_ITEMS -> run {
+                        val items = arrayListOf<Map<String, String>>()
+                        for (item: JsonElement in obj[KEY_ITEMS].asJsonArray) {
+                            val itemMap = hashMapOf<String, String>()
+                            for (itemEntry: Map.Entry<String, JsonElement> in item.asJsonObject.entrySet()) {
+                                val key = itemEntry.key
+                                val value = itemEntry.value.asString
+                                itemMap.put(key, value)
+                            }
+                            items.add(itemMap)
+                        }
+                        paramsMap.put(entry.key, items)
+                    }
+                    else -> run {
+                        val key = entry.key
+                        val value = entry.value
+                        paramsMap.put(key, value)
+                    }
+                }
             }
-            params.add(map)
+            params.add(paramsMap)
         }
+
         return params
     }
 }

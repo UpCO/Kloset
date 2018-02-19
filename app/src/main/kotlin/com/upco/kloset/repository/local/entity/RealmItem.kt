@@ -14,5 +14,5 @@ open class RealmItem(@PrimaryKey
                      var title: String = "",
                      var images: RealmList<String> = RealmList()): RealmObject() {
 
-    fun toItem() = Item(id, uid, title, ArrayList(images))
+    fun toItem() = Item(id, uid, title, images[0].toString())
 }

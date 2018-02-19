@@ -20,6 +20,6 @@ open class RealmLook(@PrimaryKey
                      var createdAt: String = ""): RealmObject() {
 
     fun toLook(): Look {
-        return Look(id, uid, title, privacy, numItems, numLikes, numComments, numShares, updatedAt, createdAt)
+        return Look(id, uid, title, privacy, arrayListOf(), numItems, numLikes, numComments, numShares, updatedAt, createdAt)
     }
 }

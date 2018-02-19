@@ -5,4 +5,4 @@ package com.upco.kloset.model.entity
  */
 data class RedirectionInfo(var error: Boolean = false,
                            var message: String = "",
-                           var parameters: ArrayList<Map<String, String>> = arrayListOf())
+                           var parameters: ArrayList<Map<String, Any>> = arrayListOf())

@@ -1,6 +1,7 @@
 package com.upco.kloset.repository.remote
 
 import android.util.Log
+import com.upco.kloset.model.entity.Item
 import com.upco.kloset.repository.LooksDataSource
 import com.upco.kloset.model.entity.Look
 import com.upco.kloset.model.entity.RedirectionInfo
@@ -27,16 +28,28 @@ object LooksRemoteDataSource: LooksDataSource {
                                     val looks = arrayListOf<Look>()
                                     for (param in it.parameters) {
                                         val look = Look()
-                                        look.id          = param["id"]!!.toLong()
-                                        look.uid         = param["uid"]!!
-                                        look.title       = param["title"]!!
-                                        look.privacy     = param["privacy"]!!.toInt()
-                                        look.numItems    = param["num_items"]!!.toInt()
-                                        look.numLikes    = param["num_likes"]!!.toInt()
-                                        look.numComments = param["num_comments"]!!.toInt()
-                                        look.numShares   = param["num_shares"]!!.toInt()
-                                        look.updatedAt   = param["updated_at"]!!
-                                        look.createdAt   = param["created_at"]!!
+                                        look.id          = param["id"].toString().toLong()
+                                        look.uid         = param["uid"].toString()
+                                        look.title       = param["title"].toString()
+                                        look.privacy     = param["privacy"].toString().toInt()
+                                        look.numItems    = param["num_items"].toString().toInt()
+                                        look.numLikes    = param["num_likes"].toString().toInt()
+                                        look.numComments = param["num_comments"].toString().toInt()
+                                        look.numShares   = param["num_shares"].toString().toInt()
+                                        look.updatedAt   = param["updated_at"].toString()
+                                        look.createdAt   = param["created_at"].toString()
+
+                                        for (item in param["items"] as ArrayList<Map<String, String>>) {
+                                            val i = Item()
+                                            i.id         = item["id"]!!.toLong()
+                                            i.uid        = item["uid"].toString()
+                                            i.title      = item["title"].toString()
+                                            i.images     = item["images"].toString()
+                                            i.updatedAt  = item["updated_at"].toString()
+                                            i.createdAt  = item["created_at"].toString()
+                                            look.items.add(i)
+                                        }
+
                                         looks.add(look)
                                     }
                                     callback.onLooksLoaded(looks)
@@ -74,16 +87,16 @@ object LooksRemoteDataSource: LooksDataSource {
 
                                     val look = Look()
                                     for (param in it.parameters) {
-                                        look.id          = param["id"]!!.toLong()
-                                        look.uid         = param["uid"]!!
-                                        look.title       = param["title"]!!
-                                        look.privacy     = param["privacy"]!!.toInt()
-                                        look.numItems    = param["num_items"]!!.toInt()
-                                        look.numLikes    = param["num_likes"]!!.toInt()
-                                        look.numComments = param["num_comments"]!!.toInt()
-                                        look.numShares   = param["num_shares"]!!.toInt()
-                                        look.updatedAt   = param["updated_at"]!!
-                                        look.createdAt   = param["created_at"]!!
+                                        look.id          = param["id"].toString().toLong()
+                                        look.uid         = param["uid"].toString()
+                                        look.title       = param["title"].toString()
+                                        look.privacy     = param["privacy"].toString().toInt()
+                                        look.numItems    = param["num_items"].toString().toInt()
+                                        look.numLikes    = param["num_likes"].toString().toInt()
+                                        look.numComments = param["num_comments"].toString().toInt()
+                                        look.numShares   = param["num_shares"].toString().toInt()
+                                        look.updatedAt   = param["updated_at"].toString()
+                                        look.createdAt   = param["created_at"].toString()
                                     }
                                     callback.onLookLoaded(look)
                                 } else {
@@ -109,7 +122,7 @@ object LooksRemoteDataSource: LooksDataSource {
                 })
     }
 
-    override fun saveLook(auth: String, look: Look) {
+    override fun saveLook(auth: String, look: Look, callback: LooksDataSource.SaveLookCallback) {
         RetrofitInitializer.service.createLook(auth, look)
                 .enqueue(object: Callback<RedirectionInfo> {
                     override fun onResponse(call: Call<RedirectionInfo>?, response: Response<RedirectionInfo>?) {
@@ -117,10 +130,12 @@ object LooksRemoteDataSource: LooksDataSource {
                             response.body()?.let {
                                 if (!it.error) {
                                     Log.d("onSuccess", it.message)
-                                    //callback.onLookLoaded(look)
+
+                                    val lookUid = it.parameters[0]["uid"].toString()
+                                    callback.onLookSaved(lookUid)
                                 } else {
                                     Log.e("onFailure", it.message)
-                                    //callback.onDataNotAvailable()
+                                    callback.onError()
                                 }
                             }
                         } else {
@@ -136,7 +151,7 @@ object LooksRemoteDataSource: LooksDataSource {
 
                     override fun onFailure(call: Call<RedirectionInfo>?, t: Throwable?) {
                         Log.e("onFailure", t?.message)
-                        //callback.onDataNotAvailable()
+                        callback.onError()
                     }
                 })
     }

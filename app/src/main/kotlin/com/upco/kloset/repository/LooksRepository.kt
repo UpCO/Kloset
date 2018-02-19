@@ -79,9 +79,9 @@ object LooksRepository: LooksDataSource {
         })
     }
 
-    override fun saveLook(auth: String, look: Look) {
-        looksRemoteDataSource.saveLook(auth, look)
-        looksLocalDataSource.saveLook(auth, look)
+    override fun saveLook(auth: String, look: Look, callback: LooksDataSource.SaveLookCallback) {
+        looksRemoteDataSource.saveLook(auth, look, callback)
+        looksLocalDataSource.saveLook(auth, look, callback)
 
         // Salva no cache
         cachedLooks[look.uid] = look
@@ -150,7 +150,19 @@ object LooksRepository: LooksDataSource {
 
     private fun refreshLocalDataSource(auth: String, looks: ArrayList<Look>) {
         looksLocalDataSource.deleteAllLooks()
-        looks.forEach { look -> looksLocalDataSource.saveLook(auth, look) }
+        looks.forEach {
+            look -> run {
+                looksLocalDataSource.saveLook(auth, look, object: LooksDataSource.SaveLookCallback {
+                    override fun onLookSaved(lookUid: String) {
+                        Log.d("LooksRepository", "Look saved successfully on local data source: " + lookUid)
+                    }
+
+                    override fun onError() {
+                        Log.e("LooksRepository", "Error saving look on local data source: " + look.uid)
+                    }
+                })
+            }
+        }
     }
 
     private fun getLookWithUid(lookUid: String) = if (cachedLooks.isEmpty()) null else cachedLooks[lookUid]

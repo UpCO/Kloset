@@ -40,7 +40,7 @@ object ItemsLocalDataSource: ItemsDataSource {
         realm.close()
     }
 
-    override fun saveItem(auth: String, lookUid: String, item: Item) {
+    override fun saveItem(auth: String, lookUid: String, item: Item, callback: ItemsDataSource.SaveItemCallback) {
         val realm = Realm.getDefaultInstance()
 
         realm.beginTransaction()

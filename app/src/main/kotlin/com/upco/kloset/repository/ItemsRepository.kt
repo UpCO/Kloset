@@ -1,5 +1,6 @@
 package com.upco.kloset.repository
 
+import android.util.Log
 import com.upco.kloset.model.entity.Item
 import com.upco.kloset.repository.local.ItemsLocalDataSource
 import com.upco.kloset.repository.remote.ItemsRemoteDataSource
@@ -83,9 +84,9 @@ object ItemsRepository: ItemsDataSource {
         })
     }
 
-    override fun saveItem(auth: String, lookUid: String, item: Item) {
-        itemsRemoteDataSource.saveItem(auth, lookUid, item)
-        itemsLocalDataSource.saveItem(auth, lookUid, item)
+    override fun saveItem(auth: String, lookUid: String, item: Item, callback: ItemsDataSource.SaveItemCallback) {
+        itemsRemoteDataSource.saveItem(auth, lookUid, item, callback)
+        itemsLocalDataSource.saveItem(auth, lookUid, item, callback)
 
         // Salva no cache
         cachedItems[item.uid] = item
@@ -154,7 +155,19 @@ object ItemsRepository: ItemsDataSource {
 
     private fun refreshLocalDataSource(auth: String, lookUid: String, items: ArrayList<Item>) {
         itemsLocalDataSource.deleteAllItems()
-        items.forEach { item -> itemsLocalDataSource.saveItem(auth, lookUid, item) }
+        items.forEach {
+            item -> run {
+                itemsLocalDataSource.saveItem(auth, lookUid, item, object: ItemsDataSource.SaveItemCallback {
+                    override fun onItemSaved(itemUid: String) {
+                        Log.d("ItemsRepository", "Item saved successfully on local data source: " + itemUid)
+                    }
+
+                    override fun onError() {
+                        Log.e("ItemsRepository", "Error saving item on local data source: " + item.uid)
+                    }
+                })
+            }
+        }
     }
 
     private fun getItemWithUid(itemUid: String) = if (cachedItems.isEmpty()) null else cachedItems[itemUid]

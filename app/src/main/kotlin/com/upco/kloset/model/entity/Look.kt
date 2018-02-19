@@ -22,6 +22,8 @@ data class Look(@Expose(serialize = false)
                 @SerializedName("privacy")
                 var privacy: Int = 0,
                 @Expose
+                var items: ArrayList<Item> = arrayListOf(),
+                @Expose
                 @SerializedName("num_items")
                 var numItems: Int = 0,
                 @Expose

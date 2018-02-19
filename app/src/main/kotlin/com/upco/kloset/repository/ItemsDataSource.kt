@@ -17,9 +17,14 @@ interface ItemsDataSource {
         fun onDataNotAvailable()
     }
 
+    interface SaveItemCallback {
+        fun onItemSaved(itemUid: String)
+        fun onError()
+    }
+
     fun getItems(auth: String, lookUid: String, callback: LoadItemsCallback)
     fun getItem(auth: String, lookUid: String, itemUid: String, callback: GetItemCallback)
-    fun saveItem(auth: String, lookUid: String, item: Item)
+    fun saveItem(auth: String, lookUid: String, item: Item, callback: SaveItemCallback)
     fun updateItem(auth: String, lookUid: String, itemUid: String, item: Item)
     fun refreshItems()
     fun deleteItem(auth: String, lookUid: String, itemUid: String)

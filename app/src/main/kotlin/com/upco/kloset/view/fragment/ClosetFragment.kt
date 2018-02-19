@@ -79,7 +79,7 @@ class ClosetFragment: Fragment(), ClosetContract.ViewImpl, OnLookSelectedListene
     }
 
     private fun setupGridRecycler() {
-        lookGridAdapter = LookGridRecyclerAdapter(presenter.getLooks(), presenter, context!!, peekAndPop!!, this)
+        lookGridAdapter = LookGridRecyclerAdapter(presenter.getLooks(), context!!, peekAndPop!!, this)
         closet_grid_recycler.adapter = lookGridAdapter
         if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
             closet_grid_recycler.layoutManager = GridLayoutManager(context, 3)

@@ -16,435 +16,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52ba0dd-0f22-47af-8a2f-76f91d7db444" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/io/realm/DefaultRealmModuleMediator.java" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/io/realm/DefaultRealmModuleMediator.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/DefaultRealmModuleMediator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/io/realm/DefaultRealmModuleMediator.class" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/ClosetContract$ModelImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/ClosetContract$ModelImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/LookContract$ModelImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/LookContract$ModelImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/LookContract$ViewImpl$Companion.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/contract/LookContract$ViewImpl$Companion.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/ClosetModel$retrieveLooks$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/ClosetModel$retrieveLooks$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/ClosetModel.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/ClosetModel.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/LookModel$retrieveComments$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/LookModel$retrieveComments$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/LookModel.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/LookModel.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Entity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/presenter/ClosetPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/presenter/ClosetPresenter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/presenter/LookPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/presenter/LookPresenter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Item$Companion$CREATOR$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Item$Companion$CREATOR$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Item$Companion.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Item$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Item.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Item.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look$Companion$CREATOR$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look$Companion$CREATOR$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look$Companion.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look$Privacy.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look$Privacy.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/Look.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/RedirectionInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/model/entity/RedirectionInfo.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/LooksDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/LooksDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/LooksRepository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/LooksRepository.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/local/LooksLocalDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/local/LooksLocalDataSource.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/local/entity/RealmItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/local/entity/RealmItem.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/local/entity/RealmLook.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/local/entity/RealmLook.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLook$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLook$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLooks$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLooks$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/LooksRemoteDataSource.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/LooksRemoteDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/RetrofitInitializer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/RetrofitInitializer.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/Service.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/repository/remote/Service.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/activity/LookActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/activity/LookActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/activity/NewLookActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/activity/NewLookActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder$setupUI$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder$setupUI$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookItemRecyclerAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/LookItemRecyclerAdapter$ViewHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$LookItemViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$LookItemViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/fragment/ClosetFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/com/upco/kloset/view/fragment/ClosetFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/io/realm/DefaultRealmModuleMediator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/RealmTransformer/debug/0/io/realm/DefaultRealmModuleMediator.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/145.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/146.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/147.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/148.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/149.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/arch/lifecycle/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/compat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/constraint/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/constraint/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/constraint/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/constraint/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreui/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/coreutils/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$animator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/design/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/fragment/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/graphics/drawable/animated/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/mediacompat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/transition/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v4/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/appcompat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/cardview/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/cardview/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/cardview/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/cardview/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/cardview/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/cardview/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/android/support/v7/recyclerview/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/getkeepsafe/relinker/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/peekandpop/shalskar/peekandpop/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/tomergoldst/tooltips/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/BuildConfig.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$animator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$font.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$menu.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$mipmap.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/AnswerContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/AnswerContract$ViewImpl$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/AnswerContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/AnswerContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/Application.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/BaseContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/BaseContract$PresenterImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/BaseContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/BaseContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/ClosetContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/ClosetContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/ClosetContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/CommentContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/CommentContract$ViewImpl$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/CommentContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/CommentContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/LookContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/LookContract$ViewImpl$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/LookContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/LookContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/MainContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/MainContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/MainContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/NewLookContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/NewLookContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/NewLookContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/NewLookItemContract$ModelImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/NewLookItemContract$ViewImpl.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/contract/NewLookItemContract.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/extension/BindExtKt$bind$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/extension/BindExtKt$bind$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/extension/BindExtKt.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/extension/BottomNavigationExtKt.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/listener/OnCommentSelectedListener.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/listener/OnLookSelectedListener.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/AnswerModel$retrieveAnswers$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/AnswerModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/ClosetModel$retrieveLooks$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/ClosetModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/CommentModel$retrieveComments$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/CommentModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/LookModel$retrieveComments$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/LookModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/MainModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/NewLookItemModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/NewLookModel.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Comment$Companion$CREATOR$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Comment$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Comment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Entity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Item$Companion$CREATOR$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Item$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Item.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Look$Companion$CREATOR$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Look$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Look$Privacy.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/Look.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/model/entity/RedirectionInfo.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/AnswerPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/ClosetPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/CommentPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/LookPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/MainPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/NewLookItemPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/presenter/NewLookPresenter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersDataSource$GetAnswerCallback.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersDataSource$LoadAnswersCallback.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersRepository$getAnswer$1$onDataNotAvailable$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersRepository$getAnswer$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersRepository$getAnswers$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersRepository$getAnswersFromRemoteDataSource$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersRepository$getAnswersFromRemoteDataSource$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/AnswersRepository.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsDataSource$GetCommentCallback.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsDataSource$LoadCommentsCallback.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsRepository$getComment$1$onDataNotAvailable$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsRepository$getComment$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsRepository$getComments$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsRepository$getCommentsFromRemoteDataSource$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsRepository$getCommentsFromRemoteDataSource$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/CommentsRepository.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksDataSource$GetLookCallback.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksDataSource$LoadLooksCallback.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksRepository$getLook$1$onDataNotAvailable$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksRepository$getLook$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksRepository$getLooks$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksRepository$getLooksFromRemoteDataSource$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksRepository$getLooksFromRemoteDataSource$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/LooksRepository.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/local/AnswersLocalDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/local/CommentsLocalDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/local/LooksLocalDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/local/entity/RealmComment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/local/entity/RealmItem.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/local/entity/RealmLook.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/AnswersRemoteDataSource$getAnswers$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/AnswersRemoteDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/CommentsRemoteDataSource$getComments$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/CommentsRemoteDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLook$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLooks$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/LooksRemoteDataSource.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/RetrofitInitializer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/repository/remote/Service.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/activity/AnswerActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/activity/CommentActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/activity/LookActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/activity/MainActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/activity/NewLookActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/activity/NewLookItemActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/AnswerRecyclerAdapter$ViewHolder$setupUI$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/AnswerRecyclerAdapter$ViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/AnswerRecyclerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/CommentRecyclerAdapter$ViewHolder$setupUI$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/CommentRecyclerAdapter$ViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/CommentRecyclerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/FeedRecyclerAdapter$ViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/FeedRecyclerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder$setupUI$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookItemRecyclerAdapter$ViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookItemRecyclerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookSlidingImagesAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/LookViewPagerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/MainViewPagerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$AddItemViewHolder$setupUI$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$AddItemViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$LookItemViewHolder.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/behavior/ScrollAwareBNVBehavior.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/behavior/ScrollAwareFABBehavior$onNestedScroll$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/behavior/ScrollAwareFABBehavior.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/fragment/AgendaFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/fragment/ClosetFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/fragment/FeedFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/fragment/MenuFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/widget/AutoScrollViewPager$Companion.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/widget/AutoScrollViewPager$Handler.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/widget/AutoScrollViewPager.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/widget/CustomDurationScroller.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/widget/VerticalViewPager.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/com/upco/kloset/view/widget/ViewPager.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/DefaultRealmModule.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/DefaultRealmModuleMediator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmCommentRealmProxy$RealmCommentColumnInfo.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmCommentRealmProxy.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmCommentRealmProxyInterface.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmItemRealmProxy$RealmItemColumnInfo.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmItemRealmProxy.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmItemRealmProxyInterface.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmLookRealmProxy$RealmLookColumnInfo.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmLookRealmProxy.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/170/io/realm/RealmLookRealmProxyInterface.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/75.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/76.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/77.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/78.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/79.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" />
@@ -466,30 +78,14 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" />
@@ -544,8 +140,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" />
@@ -575,64 +169,81 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab_i" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/ClosetContract$ModelImpl.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/ClosetContract$ModelImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/LookContract$ModelImpl.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/LookContract$ModelImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/LookContract$ViewImpl$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/contract/LookContract$ViewImpl$Companion.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/ClosetModel.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/ClosetModel.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/LookModel.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/LookModel.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/presenter/ClosetPresenter.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/presenter/ClosetPresenter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/presenter/LookPresenter.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/presenter/LookPresenter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/local/entity/RealmItem.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/local/entity/RealmItem.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/RetrofitInitializer.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/RetrofitInitializer.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/Service.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/Service.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/entity/Item.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/entity/Item.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/entity/Look.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/entity/Look.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/entity/RedirectionInfo.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/model/entity/RedirectionInfo.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/LooksDataSource.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/LooksDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/LooksRepository.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/LooksRepository.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/local/LooksLocalDataSource.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/local/LooksLocalDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.class" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/contract/ClosetContract.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/contract/ClosetContract.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/contract/LookContract.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/contract/LookContract.java" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/ClosetModel.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/ClosetModel.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/LookModel.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/LookModel.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/presenter/ClosetPresenter.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/presenter/ClosetPresenter.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/presenter/LookPresenter.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/presenter/LookPresenter.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/local/entity/RealmItem.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/local/entity/RealmItem.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/RetrofitInitializer.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/RetrofitInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/Service.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/Service.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/entity/Item.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/entity/Item.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/entity/Look.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/entity/Look.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/entity/RedirectionInfo.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/model/entity/RedirectionInfo.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/LooksDataSource.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/LooksDataSource.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/LooksRepository.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/LooksRepository.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/local/LooksLocalDataSource.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/local/LooksLocalDataSource.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.java" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/ClosetContract$ModelImpl.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/ClosetContract$ModelImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/ClosetContract$ViewImpl$Companion.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/LookContract$ModelImpl.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/LookContract$ModelImpl.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/LookContract$ViewImpl$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/contract/LookContract$ViewImpl$Companion.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/ClosetModel$retrieveLooks$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/ClosetModel$retrieveLooks$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/ClosetModel.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/ClosetModel.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/LookModel$retrieveComments$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/LookModel$retrieveComments$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/LookModel.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/LookModel.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/presenter/ClosetPresenter.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/presenter/ClosetPresenter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/presenter/LookPresenter.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/presenter/LookPresenter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Item$Companion$CREATOR$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Item$Companion$CREATOR$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Item$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Item$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Item.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Item.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look$Companion$CREATOR$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look$Companion$CREATOR$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look$Privacy.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look$Privacy.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/Look.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/RedirectionInfo.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/model/entity/RedirectionInfo.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/LooksDataSource.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/LooksDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/LooksRepository.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/LooksRepository.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/local/LooksLocalDataSource.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/local/LooksLocalDataSource.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/local/entity/RealmItem.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/local/entity/RealmItem.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/local/entity/RealmLook.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/local/entity/RealmLook.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLook$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLook$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLooks$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource$getLooks$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/LooksRemoteDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer$Companion.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/RetrofitInitializer.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/RetrofitInitializer.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/Service.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/repository/remote/Service.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/activity/LookActivity.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/activity/LookActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/activity/NewLookActivity.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/activity/NewLookActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder$setupUI$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder$setupUI$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$ViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$2.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$3.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter$setupPeekAndPop$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookItemRecyclerAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/LookItemRecyclerAdapter$ViewHolder.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$LookItemViewHolder.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter$LookItemViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/fragment/ClosetFragment.class" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/upco/kloset/view/fragment/ClosetFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/Post.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/contract/ClosetContract.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/contract/ClosetContract.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/contract/LookContract.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/contract/LookContract.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/LookModel.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/LookModel.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/LookPresenter.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/LookPresenter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Look.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Look.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/RedirectionInfo.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/RedirectionInfo.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksDataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksDataSource.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/LooksLocalDataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/LooksLocalDataSource.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmItem.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmItem.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmLook.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmLook.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LooksRemoteDataSource.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LooksRemoteDataSource.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RetrofitInitializer.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RetrofitInitializer.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/Service.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/Service.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/LookActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/LookActivity.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/NewLookActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/NewLookActivity.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookItemRecyclerAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookItemRecyclerAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -656,14 +267,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClosetModel.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClosetModel.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            <state relative-caret-position="487">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
-                <element signature="e#31#432#0" expanded="true" />
+                <element signature="e#31#451#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LooksRepository.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1673">
+              <caret line="160" column="103" lean-forward="false" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -671,33 +302,18 @@
       <file leaf-file-name="ClosetPresenter.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-              <folding>
-                <element signature="e#35#455#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1170">
+              <caret line="88" column="1" lean-forward="false" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ClosetFragment.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="975">
+              <caret line="81" column="70" lean-forward="false" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -706,9 +322,11 @@
       <file leaf-file-name="LookGridRecyclerAdapter.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="168" column="34" lean-forward="false" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+              <folding>
+                <element signature="e#38#1059#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -719,8 +337,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -842,6 +460,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1607,6 +1229,10 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseGoogleServices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'Kloset'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -1692,6 +1318,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileReleaseNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2448,6 +2078,10 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processReleaseGoogleServices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="properties" />
@@ -2473,6 +2107,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.0-alpha02/4c4152a29d81101313f9593add6f9025c682405/gradle-3.2.0-alpha02.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.51/f1ba9fb14391d73aa87d16fa003ba8cb4127a699/kotlin-gradle-plugin-1.1.51-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.51/1b52dc196b624b3df76dd5ed3a3d8ddcd22736ab/kotlin-gradle-plugin-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.2.0/3f7cc7685726e5bebf16ec2e1eea5185bce38293/google-services-3.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.2.0/202fd26a10eb8426e49bd1bdbb1ab093ea30bd76/google-services-3.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/4.1.0/559b2a61e5ceb2ab826247f71adaef81c7dfd071/realm-gradle-plugin-4.1.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha02/14100d966d12aeb85027c1c0977cabcc4365a5f9/gradle-core-3.2.0-alpha02-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha02/6254eaa5af937da64148fdc22d4de02cf06d40af/gradle-core-3.2.0-alpha02.jar" />
@@ -2644,6 +2280,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.0-alpha02/4c4152a29d81101313f9593add6f9025c682405/gradle-3.2.0-alpha02.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.51/f1ba9fb14391d73aa87d16fa003ba8cb4127a699/kotlin-gradle-plugin-1.1.51-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.51/1b52dc196b624b3df76dd5ed3a3d8ddcd22736ab/kotlin-gradle-plugin-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.2.0/3f7cc7685726e5bebf16ec2e1eea5185bce38293/google-services-3.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.2.0/202fd26a10eb8426e49bd1bdbb1ab093ea30bd76/google-services-3.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/4.1.0/559b2a61e5ceb2ab826247f71adaef81c7dfd071/realm-gradle-plugin-4.1.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha02/14100d966d12aeb85027c1c0977cabcc4365a5f9/gradle-core-3.2.0-alpha02-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.2.0-alpha02/6254eaa5af937da64148fdc22d4de02cf06d40af/gradle-core-3.2.0-alpha02.jar" />
@@ -2977,33 +2615,38 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Comment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Post.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Look.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/AnswersRemoteDataSource.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/CommentsRemoteDataSource.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_look_grid_peek_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/LooksLocalDataSource.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/LookPresenter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/contract/LookContract.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmItem.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/contract/ClosetContract.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/LookModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/LookActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/Service.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LooksRemoteDataSource.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/RedirectionInfo.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksDataSource.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RetrofitInitializer.kt" />
         <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Look.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/RedirectionInfo.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmLook.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LookDeserializer.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RetrofitInitializer.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/LooksLocalDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmItem.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LooksRemoteDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/LookActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/NewLookActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookItemRecyclerAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/Service.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt" />
       </list>
     </option>
   </component>
@@ -3027,10 +2670,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -3060,6 +2702,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3243,8 +2886,8 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3256,8 +2899,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3274,49 +2917,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
         <watch expression="this.val$content" custom="okhttp3.ResponseBody,retrofit2.Response" />
+        <watch expression="((java.util.ArrayList)looks).get(1)" custom="java.util.ArrayList" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
           <folding>
-            <element signature="e#31#432#0" expanded="true" />
+            <element signature="e#31#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3325,9 +2941,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="e#35#455#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3343,7 +2957,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="175" column="13" lean-forward="false" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#38#1059#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3352,7 +2968,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#31#432#0" expanded="true" />
+            <element signature="e#31#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3390,29 +3006,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Post.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Look.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Post.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/AnswersRemoteDataSource.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -3421,14 +3015,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_look_grid_peek_view.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/CommentsDataSource.kt">
@@ -3447,13 +3041,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/FeedRecyclerAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookItemRecyclerAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
@@ -3479,21 +3066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="48" column="58" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/LooksLocalDataSource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="92" column="21" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="92" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -3523,26 +3095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/LookActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="63" column="94" lean-forward="false" selection-start-line="63" selection-start-column="94" selection-end-line="63" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/LookPresenter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1055">
           <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/Service.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="57" column="93" lean-forward="false" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
           <folding />
         </state>
       </provider>
@@ -3555,121 +3111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/RedirectionInfo.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="91" column="39" lean-forward="false" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksDataSource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LooksRemoteDataSource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="67" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-          <folding>
-            <element signature="e#31#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RetrofitInitializer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="168" column="34" lean-forward="false" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-          <folding>
-            <element signature="e#35#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3679,6 +3120,205 @@
       </provider>
       <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookGridRecyclerAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <element signature="e#38#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/fragment/ClosetFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="81" column="70" lean-forward="false" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Look.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/RedirectionInfo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LookDeserializer.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RetrofitInitializer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="99" lean-forward="false" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/RedirectionInfoDeserializer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/presenter/ClosetPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="88" column="1" lean-forward="false" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmLook.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/LooksLocalDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="e#42#211#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="86" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/ItemsLocalDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="42" column="111" lean-forward="false" selection-start-line="42" selection-start-column="111" selection-end-line="42" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/ItemsRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="165" column="67" lean-forward="false" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/local/entity/RealmItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/LookActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/activity/NewLookActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="93" column="113" lean-forward="false" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/LookItemRecyclerAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/view/adapter/NewLookItemRecyclerAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/LooksRemoteDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/ItemsRemoteDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="71" column="85" lean-forward="true" selection-start-line="71" selection-start-column="85" selection-end-line="71" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/LooksRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1673">
+          <caret line="160" column="103" lean-forward="false" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/entity/Item.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/repository/remote/Service.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/kotlin/com/upco/kloset/model/ClosetModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#451#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
